@@ -1,0 +1,1967 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#addSectionAsset {
+    cursor: pointer;
+    position: relative;
+    margin-left: 47%;
+    border: none;
+    background-color: white;
+    color: #216c98;
+    font-weight: bold;
+    top: 98px;
+    margin-top: 1px;
+}
+
+
+
+
+#sectioninputerror {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-left: 3px solid #216c98;
+}
+
+#errorlabelid {
+    padding-left: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 117px;
+}
+
+#angleupiconasset {
+    position: relative;
+    left: 15px;
+    width: 13px;
+    color: #216c98;
+    font-size: 16px;
+}
+
+
+#angledownasset {
+    position: relative;
+    left: 20px;
+    width: 13px;
+    color: #216c98;
+    font-size: 16px;
+}
+
+#labelsectionasset {
+    position: relative;
+    left: 5px;
+    width: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.assetsectioninputclass {
+
+    font-size: 15px;
+    padding-left: 9px;
+    padding-top: 23px;
+    height: 100%;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 15px;
+    outline: none;
+    border: none;
+
+}
+
+#sectionerror {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-left: 3px solid #216c98;
+
+}
+
+#moveupassetbtn {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    color: #216c98;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px;
+
+
+}
+
+.sectionglobeassetclass {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 2fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #216c98;
+    height: 60px;
+    border: 1px solid #ccc;
+
+    position: relative;
+
+    &:hover {
+        #moveupassetbtn {
+            color: #216c98;
+            opacity: 1;
+        }
+    }
+
+    &:hover {
+        #movedownassetbtn {
+            color: #216c98;
+            opacity: 1;
+        }
+    }
+}
+
+.sectionglobeassetclass:hover {
+    background-color: rgba(240, 248, 255, 0.938);
+}
+
+.rulescontainerdivclass:hover {
+    background-color: rgba(240, 248, 255, 0.938);
+}
+
+.conditioncontainerdiv:hover {
+    background-color: rgba(240, 248, 255, 0.938);
+}
+
+#movedownassetbtn {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    color: #216c98;
+    font-size: 10px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+#checkboxassetsectiondiv {
+    position: relative;
+    left: 4px;
+    height: 75%;
+    margin: 5px;
+}
+
+
+#checkboxassetsection {
+    top: 12px;
+    left: 31px;
+    position: relative;
+}
+
+#checkboxassetsectionlabel {
+    position: relative;
+    top: 31px;
+    left: 13px;
+    width: 33px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#deleteassetglobe {
+    margin-right: 18px;
+    margin-left: 18px;
+    width: 45%;
+    height: 77%;
+    position: relative;
+    color: red;
+    padding-left: 13px;
+    font-size: 23px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#questionassetbtn {
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-right: none;
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #216c98;
+}
+
+
+
+#addquestionbtn {
+    background: none;
+    border: none;
+    font-size: 11px;
+    color: #216c98;
+    padding-left: 50px;
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#questionscontainerdiv {
+    display: grid;
+    grid-template-columns: 0.1fr 1.5fr 0.2fr 0.3fr 0.5fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    color: #216c98;
+    height: 50px;
+    border: 1px solid #ccc;
+
+    &:hover {
+        #moveupassetquestion {
+            color: #216c98;
+            opacity: 1;
+        }
+
+        &:hover {
+            #movedownassetquestion {
+                color: #216c98;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#iconAngleUpquestion {
+    position: relative;
+    top: 15px;
+    width: 19px;
+    height: 17px;
+    padding: 3px;
+    left: 6px;
+}
+
+#subSectionlabel {
+    position: relative;
+    font-size: 14px;
+    height: 17px;
+    padding: 2px;
+    margin: 15px;
+    width: 25px;
+    font-weight: bold;
+}
+
+#inputfield {
+    height: 48px;
+    width: 100%;
+    font-size: medium;
+    font-weight: lighter;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+
+
+#checkboxassetquestionDiv {
+    height: 100%;
+    display: flex;
+    border-left: 1px solid #ccc;
+    align-items: center;
+    flex-direction: column;
+}
+
+#checkboxassetquestion {
+    margin-top: 9px;
+    margin: 8px;
+}
+
+#checkboxassetquestionlabel {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#inputtogglefield {
+    height: 48px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-top: none;
+    position: relative;
+    top: 1px;
+    background-color: white;
+    border-radius: 0px;
+    text-transform: uppercase;
+    padding: 6px;
+    font-size: 12px;
+}
+
+#iconiconquestion {
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+    color: #216c98;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#buttonscontainer {
+    padding: 6px;
+    width: 97.8%;
+    position: relative;
+    left: 13px;
+}
+
+#moveupassetquestion {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    color: #216c98;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px;
+
+}
+
+#movedownassetquestion {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    position: relative;
+    color: #216c98;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#iconcopyquestion {
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    margin-left: 42px;
+    color: #216c98;
+    width: 20px;
+    margin-top: 16px;
+    position: relative;
+
+}
+
+#icontrashquestion {
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    margin: 3px;
+    color: red;
+    width: 50%;
+    height: 80%;
+    top: 3px;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 9px;
+}
+
+#default {
+    position: relative;
+    float: right;
+    right: 81px;
+    font-size: 12px;
+    top: 29px;
+    font-family: auto;
+}
+
+
+
+
+#iiconinputsubFieldid1 {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#iiconinputsubFieldid2 {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+#iiconfieldiddiv2 {
+    display: grid;
+    grid-template-columns: 5% 2.4fr 0.9fr 1fr 5%;
+    POSITION: RELATIVE;
+    height: 45PX;
+}
+
+#iiconinputFieldid {
+    BORDER: 1PX SOLID #CCC;
+    padding: 5px;
+    outline-color: #216c98;
+    width: 100%;
+    height: 100%;
+}
+
+#iiconinputfieldnotelabel {
+    font-size: 12px;
+    color: #216c98;
+    padding: 2px;
+    bottom: 19px;
+    left: 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+
+#iiconinputFieldcategoryid {
+    BORDER: 1PX SOLID #CCC;
+    padding: 5px;
+    outline-color: #216c98;
+    width: 100%;
+    height: 100%;
+}
+
+#iiconinputfieldcategorylabel {
+    font-size: 12px;
+    color: #216c98;
+    padding: 2px;
+    bottom: 19px;
+    left: 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+#iiconinputFieldexternalid {
+    BORDER: 1PX SOLID #CCC;
+    padding: 5px;
+    outline-color: #216c98;
+    width: 100%;
+    height: 100%;
+}
+
+#iiconinputfieldexternallabel {
+    font-size: 12px;
+    color: #216c98;
+    padding: 2px;
+    bottom: 19px;
+    left: 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+#inputtogglefieldlist {
+    position: absolute;
+    list-style: none;
+    width: 17%;
+    font-size: 11px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: 54%;
+    overflow-y: scroll;
+    background-color: white;
+    overflow-y: scroll;
+    z-index: 2;
+}
+
+#inputtogglefieldlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+.listitem {
+    padding: 5px;
+    font-size: 12px
+}
+
+
+#rulesassetbtn {
+    width: 100px;
+    height: 30px;
+    background: none;
+    border: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+
+#addrulebtn {
+    background: none;
+    border: none;
+    font-size: 11px;
+    color: #216c98;
+    padding-left: 50px;
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.rulescontainerdivclass {
+    display: grid;
+    grid-template-columns: 5% 0.1fr 0.5fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    align-items: center;
+    color: #216c98;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+
+    &:hover {
+        #moveupassetrules {
+            color: #216c98;
+            opacity: 1;
+        }
+
+        &:hover {
+            #movedownassetrules {
+
+                color: #216c98;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#iconangleuprule {
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 84px;
+    color: #216c98;
+}
+
+
+#subSectionlabelrules {
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#inputfieldrules {
+    border: none;
+    border-bottom: 1px solid #216c98;
+ 
+    
+    width: 300PX;
+    padding: 6px;
+    position: relative;
+    outline-color: white;
+    cursor: pointer;
+}
+
+#moveupassetrules {
+  
+    
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    color: #216c98;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px
+}
+
+
+#movedownassetrules {
+ 
+    
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    color: #216c98;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px
+}
+
+#iconcopyrules {
+    position: relative;
+    left: 40px;
+    width: 18px;
+    cursor: pointer;
+}
+
+#icontrashrules {
+    position: relative;
+    left: 30px;
+    width: 55%;
+    height: 80%;
+    cursor: pointer;
+    color: red;
+    font-size: 25px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+#rulescontainerdivclass:hover {
+    background-color: rgba(240, 248, 255, 0.938);
+}
+
+
+
+
+
+.conditioncontainerdivclass {
+    height: 42px;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#conditionangleup {
+    position: relative;
+    left: 92px;
+    top: -9px;
+    cursor: pointer;
+    width: 14px;
+    font-size: 15px;
+    color: #216c98;
+}
+
+#conditionangledown {
+    position: relative;
+    left: 92px;
+    top: -9px;
+    cursor: pointer;
+    width: 14px;
+    font-size: 15px;
+    color: #216c98;
+}
+
+
+#conditionlabelasset {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    left: 155px;
+    top: -11px;
+    width: 116px;
+    color: #216c98;
+    padding: 10px;
+}
+
+#conditioninputasset {
+    position: relative;
+    left: 227px;
+    top: -13px;
+    height: 26px;
+    width: 81px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+#rightassetheader {
+    height: 60px;
+    margin-left: 5.5%;
+    width: 100%;
+    margin-right: 4px;
+    margin-top: 5%;
+}
+
+#assetlistinghead {
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    margin-top: 5%;
+    margin-left: -71px;
+}
+
+#conditiondropdowninput {
+    width: 226px;
+    height: 73px;
+    border: none;
+    outline-color: #216c98;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#conditiondropdowninputlabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 22px;
+    width: 81px;
+
+}
+
+#conditiondroplist {
+    list-style: none;
+    position: relative;
+    width: 226px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 7px;
+    padding: 10px;
+    height: 125px;
+    right: 0px;
+}
+
+#conditiondroplist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+#whenlist {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#alwayslist {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#complexlist {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.mainwhenfield {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: #216c98;
+    height: 73px;
+    margin-top: -100px;
+    margin-left: 226px;
+}
+
+#whenquestansdiv {
+    width: 100%;
+    height: 73px;
+    position: relative;
+    top: 0px;
+}
+
+#whenquestans {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+    outline-color: #216c98;
+    font-size: 12px;
+    border-left: 3px solid #216c98;
+}
+
+#whenquestans::placeholder {
+    font-style: italic;
+    padding: 4px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+#whenquestanslabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+.whenlistitem1 {
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+#whenvaluediv {
+    width: 100%;
+    height: 73px;
+    position: relative;
+
+}
+
+#whenvalue {
+    width: 100%;
+    height: 73px;
+    border: none;
+    position: relative;
+    outline-color: #216c98;
+    padding: 6px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid #216c98;
+}
+
+#whenvalue::placeholder {
+    font-style: italic;
+    padding: 5px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+#whenvaluelabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+#whenvaluelabel1 {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+#Valuepenicon {
+    position: relative;
+    bottom: 38px;
+    left: 165px;
+    font-size: 10px;
+}
+
+#Valuepenicon1 {
+    position: relative;
+    bottom: 38px;
+    font-size: 10px;
+    left: 165px;
+}
+
+#whenvalue:hover #Valuepenicon {
+    display: block;
+}
+
+#whenvalue1:hover #Valuepenicon1 {
+    display: block;
+}
+
+#whenvalue1 ::placeholder {
+    font-style: italic;
+    padding: 5px;
+    font-size: 13px;
+    color: #ccc;
+
+}
+
+#whenvaluediv1 {
+    width: 100%;
+    height: 73px;
+    position: relative;
+
+}
+
+#whenvalue1 {
+    width: 100%;
+    height: 73px;
+    position: relative;
+    outline-color: #216c98;
+    padding: 6px;
+    border: none;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid #216c98;
+
+
+}
+
+#whenfirstlist {
+    position: absolute;
+    list-style: none;
+    bottom: -105px;
+    font-size: 12px;
+    width: 100%;
+    height: 106px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 2px;
+    z-index: 1;
+    overflow-y: scroll;
+    background-color: white;
+
+}
+
+
+#whenfirstlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+
+
+#whenoperationdiv {
+    width: 100%;
+    height: 73px;
+    position: relative;
+
+}
+
+#whenoperation {
+    width: 100%;
+    height: 73px;
+    border: none;
+    position: relative;
+    outline-color: #216c98;
+    padding: 6px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid #216c98;
+}
+
+.operatorlistvalues {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#whenoperation::placeholder {
+    font-style: italic;
+    padding: 4px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+#whenoperationlabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+#whensecondlist {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    font-size: 11px;
+    height: 121px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    overflow-y: scroll;
+    background-color: white;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 1;
+    bottom: 19px;
+}
+
+#whensecondlist li:hover {
+    background-color: #045679;
+    color: white;
+
+}
+
+.mainwhenfield1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: #216c98;
+    height: 73px;
+    margin-top: -100px;
+    margin-left: 226px;
+}
+
+.complexfirstdiv {
+    width: 100%;
+    height: 73px;
+    position: relative;
+    top: 0px;
+}
+
+.complexinputfirst {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 6px;
+    font-size: 12px;
+    border-left: 3px solid #216c98;
+}
+
+#complexfirstlabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+.complexinputfirst::placeholder {
+    font-style: italic;
+    padding: 4px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.compoperationdiv {
+    width: 100%;
+    height: 73px;
+    position: relative;
+}
+
+.compoperationinput {
+    width: 100%;
+    height: 73px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 6px;
+    border-left: 3px solid #216c98;
+}
+
+#compoperationlabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+
+.compoperationinput::placeholder {
+    font-style: italic;
+    padding: 4px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.complexvaluediv {
+    width: 100%;
+    height: 73px;
+    position: relative;
+}
+
+.complexinputvalue {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: relative;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 6px;
+    border-left: 3px solid #216c98;
+    border-bottom: 1px solid #ccc;
+}
+
+#complexvaluelabel {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+.complexvaluediv1 {
+    width: 100%;
+    height: 73px;
+    position: relative;
+}
+
+.complexinputvalue1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 6px;
+    border-left: 3PX SOLID #216C98;
+}
+
+#complexvaluelabel1 {
+    padding: 5px;
+    position: relative;
+    color: #0f6b93;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 22px;
+}
+
+
+#complexfirstlist {
+    position: relative;
+    list-style: none;
+    font-size: 12px;
+    width: 100%;
+    height: 106px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 2px;
+    bottom: 19px;
+    overflow-y: scroll;
+    background-color: white;
+    z-index: 1;
+}
+
+#complexfirstlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+.complexfirstlist1 {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#complexsecondlist {
+    position: relative;
+    list-style: none;
+   
+    font-size: 11px;
+    height: 121px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    overflow-y: scroll;
+    background-color: white;
+    overflow-y: scroll;
+    bottom: 19px;
+    background-color: white;
+    z-index: 1;
+}
+
+#iiconinputfieldcategorylist {
+    position: relative;
+    list-style: none;
+    width: 18.5%;
+    font-size: 11px;
+    height: 43px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 55.1%;
+    overflow-y: scroll;
+}
+
+.complexListValue {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#complexsecondlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+#conditionlabel {
+    top: -24px;
+    margin-left: 11px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+}
+
+#iiconinputfieldcategorylist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+.itemfiedcat1 {
+    padding: 4px;
+    cursor: pointer;
+}
+
+#noresultfound {
+    top: 20px;
+    position: relative;
+    font-size: 14px;
+}
+
+#CompValuepenicon1 {
+    position: relative;
+    bottom: 38px;
+    font-size: 10px;
+    left: 165px;
+}
+
+#compvaluepenicon {
+    position: relative;
+    bottom: 38px;
+    font-size: 10px;
+    left: 165px;
+}
+
+
+
+
+
+
+#rightassetheader {
+    height: 60px;
+    margin-left: 5.5%;
+    width: 100%;
+    margin-right: 4px;
+    margin-top: 5%;
+}
+
+#assetlistinghead {
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    margin-top: 5%;
+    margin-left: -71px;
+}
+
+
+#assetAddAction {
+    border: none;
+    background-color: white;
+    color: #216c98;
+    font-size: 11px;
+    width: 96px;
+    FONT-WEIGHT: BOLD;
+    margin-top: 20px;
+    margin-left: 56px;
+
+}
+
+.actionglobeassetClass {
+    display: grid;
+    grid-template-columns: 0.3fr 0.2fr 38%;
+    align-items: center;
+    color: #216c98;
+    height: 42px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#actiondiv {
+    background-color: white;
+}
+
+#actiondropdownmaindsubiv {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.1fr;
+    height: 73px;
+
+}
+
+#actionangleupasset {
+    position: relative;
+    left: 115px;
+    width: 13px;
+    color: #216c98;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#actiondropdowninput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#actiondropdownlabel {
+
+    position: relative;
+    bottom: 23px;
+    left: 5px;
+    padding: 5px;
+    font-size: 12px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+
+#rightassetheader {
+    height: 60px;
+    margin-left: 5.5%;
+    width: 100%;
+    margin-right: 4px;
+    margin-top: 5%;
+}
+
+#assetlistinghead {
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    margin-top: 5%;
+    margin-left: -71px;
+}
+
+#actiondropdownlist {
+    position: relative;
+    list-style: none;
+    width: 26.7%;
+    font-size: 12px;
+    height: 135px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+    z-index: 2;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+
+#actioninputlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+
+#actioninputdropdown {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    outline-color: #216c98;
+}
+
+
+#templatemergelist {
+    position: absolute;
+    margin-left: 20.56%;
+    list-style: none;
+    width: 69.4%;
+    font-size: 11px;
+    height: 64px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    top: 83px;
+}
+
+#templatemergelist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+
+
+
+#templatemergeinputid {
+    width: 98%;
+    position: relative;
+    top: -1px;
+    left: -1px;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+
+#showActioninput {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+}
+
+#showquestioninput {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+}
+
+
+
+
+#showSectionlist {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 66.7%;
+
+}
+
+#showSectionlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+input#showsectioninputid {
+    left: -1px;
+    outline-color: #216c98;
+    position: relative;
+}
+
+input#showquestioninputid {
+    left: -1px;
+    outline-color: #216c98;
+    position: relative;
+}
+
+input#hideSectioneinputid {
+    left: -1px;
+    outline-color: #216c98;
+    position: relative;
+}
+
+#showQuestionlist {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 66.7%;
+
+}
+
+#showQuestionlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+
+.ssitems {
+    padding: 8px;
+    font-size: 12px;
+}
+
+.sqitems {
+    padding: 8px;
+    font-size: 12px;
+}
+
+.hqitems {
+    padding: 8px;
+    font-size: 12px;
+}
+
+.hsitems {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#hidesectionlist {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 66.7%;
+
+}
+
+#hidesectionlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+#hideQuestionlist {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 66.7%;
+
+}
+
+#hideQuestionlist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+
+
+
+
+
+#showsectioninputid,
+#showquestioninputid,
+#hideSectioneinputid,
+#hideQuestioninputid,
+#templatemergeinputid {
+    outline-color: #216c98;
+}
+
+#actioninput {
+    border: none;
+    border-bottom: 1px solid #216c98;
+    left: 12px;
+    top: -1px;
+    width: 268px;
+    height: 26px;
+    position: relative;
+    outline-color: white;
+    cursor: pointer;
+}
+
+#showsectioninput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#showsectionlabel {
+    position: relative;
+    bottom: 22px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#showquestioninput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#hidesectioninput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#hidequestioninput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+#showquestionlabel {
+    position: relative;
+    bottom: 22px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#hidesectionlabel {
+    position: relative;
+    bottom: 22px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#hidequestionlabel {
+    position: relative;
+    bottom: 22px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#templatemergelabel {
+    position: relative;
+    bottom: 22px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#templatemergeinput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#templateMergelist {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 66.7%;
+}
+
+#templateMergelist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+.tmitems {
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+#replacetaggedcontentinput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#replacetaggedcontentlabel {
+    position: relative;
+    bottom: 22px;
+    color: #045679;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+#replacetaggedcontentinputid {
+    width: 98%;
+    position: relative;
+    top: 0px;
+    left: -1px;
+    height: 37px;
+    margin-bottom: 20px;
+    outline-color: #216c98;
+}
+
+
+#replacetaggedcontentsubinputid {
+    width: 2%;
+    height: 54px;
+    margin-top: -20px;
+    margin-left: 12px;
+}
+
+
+#replacetaggedcontentdivgrid {
+    display: grid;
+    grid-template-columns: 8% 0.6fr 0.6fr 0.5fr;
+    height: 73px;
+}
+
+#replacetaggedcontentsubinput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#replaceanstoquestdiv {
+    width: 100%;
+    height: 100%;
+}
+
+#replaceanstoquestinput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#replaceanstoquestvaluecalcinput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#replacevaluediv {
+    width: 100%;
+    height: 100%;
+}
+
+#replacevalueinput {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#replacetaggedcontentsubul {
+    position: absolute;
+    list-style: none;
+    width: 19.7%;
+    font-size: 11px;
+    height: 64px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+}
+
+#replaceLabelAnsToQuest {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    color: #216c98;
+    padding: 10px;
+    bottom: 20px
+}
+
+#replaceLabelValue {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    color: #216c98;
+    padding: 10px;
+    bottom: 20px
+}
+
+#replaceLabelCalc {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    color: #216c98;
+    padding: 10px;
+    bottom: 20px
+}
+
+#replaceLabelSubCalc2 {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    color: #216c98;
+    padding: 10px;
+    bottom: 20px
+}
+
+#replacecalcsubdiv1 {
+    width: 100%;
+    height: 100%;
+}
+
+#replacecalcsubinput1 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#replacecalcsubinput2 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.actioninputlistitems {
+    padding: 8px;
+    cursor: pointer
+}
+
+.replacecontentsublist {
+    padding: 2px;
+    cursor: pointer
+}
+
+#replacetaggedcontentsubul li:hover {
+    color: white;
+    background-color: #216c98;
+}
+
+#actiondropdownlist li:hover {
+    background-color: #216c98;
+    color: white;
+}
+
+#replacetaggedcontentrepinputlist {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 32.2%;
+}
+
+#replacetaggedcontentrepinputlist li:hover {
+    background-color: #216c98;
+    color: white;
+}
+
+
+.rtitems {
+    cursor: pointer;
+    padding: 8px;
+}
+
+#replaceTaggedCalcTabList {
+    position: absolute;
+    list-style: none;
+    font-size: 11px;
+    height: 93px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+    padding: 5px;
+    overflow-y: scroll;
+    width: 32.2%;
+}
+
+#replaceTaggedCalcTabList li:hover {
+    background-color: #216c98;
+    color: white;
+}
+
+.calcTabs {
+    cursor: pointer;
+    padding: 8px;
+}
+
+#actioncontainerlabel {
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    color: #216c98;
+    padding: 10px;
+    top: 2px
+}
+
+#actiondiv:hover {
+    background-color: rgba(240, 248, 255, 0.938);
+
+
+}
+
+i#AngleUp {
+    top: 27px;
+    position: absolute;
+    z-index: 1;
+    right: 12px;
+}
+
+#actionAngleUp {
+    position: relative;
+    z-index: 1;
+    left: 157px;
+    bottom: 47px;
+    color: #216c98;
+}
+
+#showAngleUp {
+    position: relative;
+    left: 509px;
+    bottom: 42px;
+    color: #216c98;
+}
+#replaceAngleUp{
+    position: relative;
+    left: 51px;
+    bottom: 42px;
+    color: #216c98;
+}
+
+
+
+#actiondropdowntrash {
+    width: 64%;
+    color: RED;
+    margin-top: 19px;
+    margin-left: 10px;
+    position: relative;
+    float: right;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 25px;
+    height: 54%;
+}
+

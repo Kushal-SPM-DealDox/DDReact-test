@@ -1,0 +1,1483 @@
+.error #tempinputleft1 {
+  border-color: #f00202;
+}
+.error-message {
+  color: #f00202;
+  position: relative;
+  top: -11px;
+  padding-left: 7px;
+}
+
+#faangletemplateleft{
+  position: relative;
+  left: 21px;
+  top: 8px;
+  color: white;
+}
+#newtwmplabel{
+  color: white;
+  position: relative;
+  left: 41px;
+  top: 9px;
+}
+.tempmaindiv{
+  background-color: #0f6b93;
+  height: 35px;
+  width: 267px;
+}
+
+/* .leftwrite{
+  display:none;
+} */
+
+.tempalte-dividewrite {
+  overflow-y: scroll;
+  height: 580px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+#myMenuwrite {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.rowtemplate {
+    display: flex;
+    background-color: white;
+    padding-left: 66px;
+    padding-top: 65px;
+}
+
+#plusiconTempaltes {
+    padding: 15px;
+    margin-top: 38%;
+    margin-left: 90px;
+    position: fixed;
+    color: #0f6b93;
+    text-decoration: none;
+}
+
+.righttemplateGuide {
+    flex: 75%;
+    width: 80%;
+    /* margin-left: 21.5%; */
+    background-color: white;
+    padding-right: 1px;
+    padding-top: 65px;
+}
+
+
+#headerTempaltes {
+    padding-top: 13px;
+    height: 48px;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+}
+#qutemheline{
+    position: relative;
+    font-size: 12px;
+     text-align: center;
+    font-weight: bold;
+     color: lightgray;
+     top: 206px;
+}
+
+
+.tempbttn {
+    width: 44px;
+    height: 18px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 48%;
+    border: 1px solid gray;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  
+  }
+  
+  /* -------templeftstart--------- */
+  .templeft {
+    /* margin-top: 25px; */
+    width: 49%;
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .templeft input[type="text"] {
+    border: 0.1px solid rgb(218, 217, 217);
+    border-radius: 1px;
+    height: 59px;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 15px;
+    outline-color: #216c98;
+    padding:6px;
+  }
+  
+  .containertemp1 {
+    height: 59px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #contenttemp1 label {
+    top: -16px;
+    margin-left: 5px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    width: 80px;
+  }
+  
+  #contenttemp2 label {
+    top: -20px;
+    margin-left: 5px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+  }
+  
+  .containertemp2 {
+    height: 59px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  #contentdownb1 label {
+    top: -20px;
+    margin-left: 5px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+  }
+  
+  #contentdownb2 label {
+    top: -20px;
+    margin-left: 5px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+  }
+  
+  #contentdownb3 label {
+    top: -20px;
+    margin-left: 5px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+  }
+  
+  #contentdownb4 label {
+    top: -20px;
+    margin-left: 5px;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+  }
+  /* templeftend */
+
+/* temprigthstart */
+.tempright {
+  width: 49%;
+  float: right;
+  /* top: -10px; */
+  position: relative;
+}
+
+.containerquote1 {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contentquote1 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentquote2 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentquote3 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.containerqoute2 {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contentquoteb1 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentquoteb2 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentquoteb3 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.tempright input[type="number"] {
+  padding-left: 7px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+.tempright input::-webkit-outer-spin-button,
+.tempright input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* temprigthend */
+
+/* description */
+#contentqtemp {
+  margin-left: 10px;
+}
+
+#contentqtemp label {
+  color: #216c98;
+  top: -27px;
+  left: 5px;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentqtemp textarea {
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 14px;
+  outline-color: #216c98;
+}
+
+/* side panel */
+.exchrates,.exterRef,.docTy,.docexpnmae,.genwordoc,.genPdf,.newalldiv {
+  width: 100%;
+  padding-top: 0%;
+  margin-left: 0%;
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(215, 228, 224);
+  flex: 1;
+}
+.exchrates  a,.exterRef a,.docTy a,.docexpnmae a,.genwordoc a,.genPdf a,.newalldiv a
+  .dropdownbtnexterref,.dropbtER,.dropdownbtndocty,.dropdownbtndocexpname,.dropdownbgenwordoc,.dropdownbtngenpdf,.dropdall{
+    padding: 0px 8px 6px 23px;
+    margin-top: 4px;
+    text-decoration: none;
+    font-weight: 750;
+    font-size: 11px;
+    color: #045679;
+    display: block;
+    border: 1px #045679;
+    background: white;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    overflow: hidden;
+  }
+  .dropdownbtnexterref{
+    padding: 0px 8px 6px 23px;
+    margin-top: 4px;
+    text-decoration: none;
+    font-weight: 750;
+    font-size: 11px;
+    color: #045679;
+    display: block;
+    border: 1px #045679;
+    background: white;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    overflow: hidden;
+  }
+  .inputextref::placeholder {
+font-style: italic;
+padding: 10px;
+font-size: 16px;
+color: #ccc;
+
+  }
+.inputextref{
+position: relative;
+height: 59px;
+width: 100%;
+outline-color: #0f6b93;
+  }
+#Llaexre{
+    display: grid;
+    justify-content: left;
+    color: #0f6b93;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+    left: 14px;
+
+  }
+  .excrates{
+    position: relative;
+    height: 59px;
+    width: 100%;
+    outline-color: #0f6b93;
+  }
+  .drolisttharnogedoyet{
+   
+      z-index: 1;
+      position: relative;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      padding: 2px;
+      margin-top: -19px;
+      list-style: none;
+      border: 1px #0f6b93;
+  
+  }
+  .drolisttharnogedoyet li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+   
+
+}
+.ulgewodo{
+z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin-top: -19px;
+  list-style: none;
+  border: 1px #0f6b93;
+}
+.ulgewodo li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+ 
+}
+.docexpnameinput{
+  position: relative;
+  height: 59px;
+  width: 100%;
+  outline-color: #0f6b93;
+}
+#docexpnamelabel{
+  display: grid;
+  justify-content: left;
+  color: #0f6b93;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  top: -15px;
+  left: 9px;
+
+}
+.noavexra{
+  
+    z-index: 1;
+      position: relative;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      padding: 2px;
+      margin-top: -19px;
+      list-style: none;
+      border: 1px #0f6b93;
+    }
+    .noavexra li {
+      cursor: pointer;
+      padding: 5px;
+      font-size: 10px;
+     
+    }
+   #noavlabellist{
+position: relative;
+float: left;
+left: 25px;
+ }
+
+
+ #inpserak{
+  position: relative;
+  width: 100%;
+  outline-color: #0f6b93;
+
+ }
+ .listforall{
+  z-index: 1;
+  position: relative;
+  background-color:white ;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin-top: 1px;
+  list-style: none;
+  height: 100px;
+  border: 1px #0f6b93;
+  overflow-y: scroll;
+  overflow-y: scroll;
+ }
+ .listforall li{
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+ }
+
+/* side panel */
+
+
+
+/* price mode */
+#pricemodellist {
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0px;
+  margin-top: -19px;
+  list-style: none;
+}
+
+#pricemodellist li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+#pricemodellist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+#sttogglepricemodel {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  top: -34px;
+  right: 22px;
+}
+
+
+/* CATAGORY */
+#catagorylist {
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0px;
+  margin-top: -19px;
+  list-style: none;
+}
+
+#catagorylist li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+#catagorylist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+#sttogglecatagory {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  top: -34px;
+  right: 12px;
+}
+
+/* STATUS */
+#statuslist {
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0px;
+  margin-top: -19px;
+  list-style: none;
+}
+
+#statuslist li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+#statuslist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+#sttogglestatus {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  top: -34px;
+  right: 12px;
+}
+
+
+/* SALES ORG */
+#salesorglist {
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0px;
+  top: -18px;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  width: 112px;
+}
+
+#salesorglist li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+#salesorglist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+#sttogglesalesorg {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  top: -34px;
+  right: 12px;
+}
+
+/* SUMMERY */
+#summerylist {
+  width: 21.7%;
+  margin-left: 20px;
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0px;
+  margin-top: -12px;
+  list-style: none;
+}
+
+#summerylist li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+#summerylist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+#sttogglesummery {
+  color: #0f6b93;
+  position: relative;
+  float: left;
+  top: -5px;
+  /* right: -195px; */
+  left: 191px;
+}
+
+#notdis{
+  position: relative;
+  font-size: 14px;
+   text-align: center;
+  font-weight: bold;
+  color:black;
+  font-weight: bold;
+   color: lightgray;
+   top: 146px;
+}
+
+.tempinputsum{
+  margin-left: 10px;
+   border: none;
+    border-radius: 1px;
+    height: 40px;
+    font-size: 15px;
+    outline-color: #216c98;
+    padding: 6px;
+    top: -15px;
+    position: relative;
+}
+
+/* #tempsummlabel{
+  color: #a3a6a8;
+  top: -27px;
+  left: 5px;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+} */
+
+.button-template {
+  display : flex;
+  flex-direction: row;
+  row-gap: 30px;
+  justify-content: center;
+}
+
+.deletetemp{
+  display: flex;
+  position: relative;
+  top: 12px;
+  /* left: 40%; */
+}
+
+#dele-button{
+display: flex;
+padding: 6px;
+color: rgb(190, 21, 21);
+border-radius: 24px;
+background-color: white;
+text-decoration: none;
+border: 2px solid rgb(242, 7, 7);
+font-size: 10px;
+font-weight: bold;
+position: relative;
+margin-right: '10px';
+}
+
+.div-save{
+  display: flex;
+  justify-content: center;
+}
+
+.button-save {
+  padding : 6px 30px;
+  margin: 20px;
+  color : green;
+  border-radius: 24px;
+  border : 2px solid green;
+}
+
+.dropdowninputdoctype{
+  position: relative;
+  height: 40px;
+  width: 100%;
+  outline-color: #0f6b93;
+}
+.dropdownoptionsdoc label{
+position: relative;
+top: -32px;
+color: #0f6b93;
+z-index: 1;
+text-decoration: none;
+font-weight: bold;
+padding: 6px;
+font-size: 11px;
+}
+#angldoctoggle{
+  position: relative;
+  color: #0f6b93;
+  font-size: 12px;
+  left: -16px;
+  float: right;
+  top: -28px;
+  z-index: 1;
+}
+.Dropdoctype{
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin-top: -19px;
+  list-style: none;
+  border: 1px #0f6b93;
+}
+/* ag grid  */
+
+/* styles.css */
+/* popup template  */
+.popuptemplate {
+  position: fixed;
+    display: none;
+    top: 60%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #EFEFEF;
+    z-index: 1000;
+    border: 1px solid #216c98;
+    height: 60vh;
+    width: 65vw;
+    text-align: -webkit-center;
+    padding-top: 30px;
+}
+
+i.close-icon {
+  position: relative;
+  font-size: 30px;
+  /* float: left; */
+  top: -24px;
+  left: 325px;
+  cursor: pointer;
+  }
+.inputfourgrid{
+display: grid;
+grid-template-columns:2fr 1.5fr 0.95fr 0.95fr;
+height: 59px;
+position: relative;
+top: -11px;
+  }
+  .label1{
+    display: grid;
+    justify-content: left;
+    color:#216c98;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    top: -16px;
+    left: 5px;
+  }
+
+  .label2, .label3 ,#label4,#label5{
+    display: grid;
+    justify-content: left;
+    color:#216c98;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    top: -16px;
+    left: 5px;
+  }
+  #inputfirst,#inputtwo ,#inputthree ,#inputfour{
+    border: 0.1px solid rgb(218, 217, 217);
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    outline-color: #216c98;
+  }
+.secondgridmain{
+display: grid;
+grid-template-columns:0.5fr 1fr 1fr 1fr 0.5fr;
+height: 59px;
+position: relative;
+top: -1px;
+
+  }
+  #inputsecondgrid1,#inputsecondgrid2,#inputsecondgrid3 ,#inputsecondgrid4 ,#inputsecondgrid5{
+    border: 0.1px solid rgb(218, 217, 217);
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    outline-color: #216c98;
+  }
+  .thirdgridmain{
+display: grid;
+grid-template-columns:2fr 0.75fr 2fr 0.75fr;
+height:69px;
+position: relative;
+top: -1px;
+  }
+  .thirdinputgrid1 ,.thirdinputgrid2 ,.thirdinputgrid3 , .thirdinputgrid4{
+    border: 0.1px solid rgb(218, 217, 217);
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    outline-color: #216c98;
+  }
+
+  #servicecontent{
+display: flex;
+height: 30px;
+}
+#generalservice{
+  border: 1px solid #ccc;
+  width: 100%;
+  background: none;
+  height: 100%;
+  font-size: 12px;
+  background-color: white;
+}
+ #categorybtnservice,#matchaaddingllbtn,#exprefbtbtn{
+  border: 1px solid #ccc;
+  width: 100%;
+  background: none;
+  height: 100%;
+  font-size: 12px;
+  background: rgb(231, 231, 231);
+}
+button#generalbtnservice{
+  border: 1px solid #ccc;
+  width: 100%;
+  background: none;
+  height: 100%;
+  font-size: 12px;
+  background-color: white;
+}
+#catalogservice{
+  border: 1px solid #ccc;
+  width: 100%;
+  background: none;
+  height: 100%;
+  font-size: 12px;
+  background-color: white;
+}
+#adingofo{
+  border: 1px solid #ccc;
+  width: 100%;
+  background: none;
+  height: 100%;
+  font-size: 12px;
+  background-color: white;
+}
+#exprefbutton{
+  border: 1px solid #ccc;
+  width: 100%;
+  background: none;
+  height: 100%;
+  font-size: 12px;
+  background-color: white;
+}
+.secondtimefourinput{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  height: 59px;
+}
+.in1 ,.in2 ,.in3 ,.in4{
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 60px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+}
+.fifthdivgrid{
+  display: grid;
+  grid-template-columns:2fr 2fr;
+  height: 59px;
+}
+.inputfifth2,.inputfifth1{
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 60px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+}
+.lastbutonemaingrid{
+  display: grid;
+  grid-template-columns:1fr 1fr 2fr;
+  height: 59px;
+}
+.inputlastbutoneinput1,.inputlastbutoneinput2,.inputlastbutoneinput3{
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 60px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+}
+.tanivlastgrid{
+  display: grid;
+  grid-template-columns:2fr;
+  height: 59px;
+
+}
+.inputonemain{
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 59px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+
+}
+#deleserv{
+  padding: 6px;
+  color: rgb(190, 21, 21);
+  border-radius: 24px;
+  background-color: white;
+  text-decoration: none;
+  border: 2px solid rgb(242, 7, 7);
+  font-size: 10px;
+    top: -1px;
+  font-weight: bold;
+  position: relative;
+}
+.deleteservice {
+  /* border: 0.1px solid rgb(218, 217, 217); */
+  top: 11px;
+  position: relative;
+  background: white;
+}
+
+
+#inputdele{
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 60px;
+  width: 100%;
+ 
+}
+#serheading{
+position: relative;
+font-size: 20px;
+font-weight: bold;
+top: 10px;
+}
+input#cheeeck {
+  position: relative;
+  top: -50px;
+  /* width: 21px; */
+}
+#cheeeck{
+position: relative;
+height: 18px;
+width: 25px;
+}
+#dropdoorglist{
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0px;
+  margin-top: -19px;
+  list-style: none;
+}
+#dropdoorglist li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+#dropdoorglist li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+#org-toggle {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  /* top: -34px; */
+  z-index: 1;
+  right: 22px;
+  top: -250px;
+
+}
+
+.serchdocype{
+  position: relative;
+  border: 0.1px solid rgb(218, 217, 217);
+  height: 25px;
+  top: -18px;
+  width: 100%;
+  font-size: 12px;
+  outline-color: #216c98;
+}
+/* Template part 5 Listing Icon css start */
+.pdfdow{
+  position: relative;
+  float: left;
+  left: 14px;
+  font-size: 20px;
+  bottom: 20px;
+}
+.worddowGuide{
+  position: relative;
+  float: left;
+  font-size: 20px;
+  bottom: 20px;
+}
+.pdfdowlabel{
+  position: relative;
+  font-size: 8px;
+  top: 13px;
+  right: 26px;
+
+}
+.worddowlabelGuide{
+  position: relative;
+  font-size: 8px;
+  top: 13px;
+  right: 11px;
+}
+#guideDownload{
+  position: relative;
+  font-size: 21px;
+  top: 13px;
+  right: 11px;
+  /* margin-left: 11px; */
+  left: 15px;
+  top: -2px;
+}
+.doclabelGuide{
+  position: relative;
+  font-size: 15px;
+  left: 30%;
+  bottom: 30px;
+}
+
+
+#template {
+  color: #0f6b93;
+  position: relative;
+  float: right;
+  right: 12px;
+  bottom: 18px;
+}
+
+.ultemplate {
+  z-index: 1;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin-top: -30px;
+  list-style: none;
+  left: 87.9%;
+  float: right;
+  width: 12%;
+}
+.ultemplate li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+.ultemplate li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.templatedocinput{
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 46px;
+  font-weight: lighter;
+  font-size: 11px;
+  outline-color: #0f6b93;
+  padding: 6px;
+  position: relative;
+  left: 32%;
+  top: -31px;
+}
+
+.headerclass{
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+ 
+}
+.catalogbtn {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #0f6b93;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 23px;
+  float: left;
+  left: 3%;
+  height: 30px;
+}
+
+.catalogbtn:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+.newbtn {
+  background-color: transparent;
+    border: none;
+    color: #216c98;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    left: 8%;
+    top: 23px;
+    position: relative;
+    height: 30px;
+}
+.newbtn:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+.catabtn {
+  position: relative;
+  background-color: white;
+}
+.squarebox {
+  /* top: -30px; */
+  position: relative;
+  height: 100%;
+  background:rgb(231, 231, 231);
+  min-height: 150px;
+  border: 2px solid;
+  margin-bottom: 30px;
+}
+.inputtwobtn{
+  position: relative;
+    height: 75px;
+    width: 95%;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+
+.deincatanew {
+  position: relative;
+  border: none;
+  color: #f00202;
+  left: 1px;
+  background: none;
+  width: 25px;
+  /* height: 75px; */
+  float: right;
+  top:-16px;
+}
+.highlightedTemplate {
+  background-color: #f00202;
+  color: white;
+}
+
+.popupcatalogbtn {
+  position: relative;
+  width: 30%;
+  left: 58%;
+  background-color: white;
+  outline: 1.3px solid #ccc;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+position: fixed;
+}
+
+.backgroundOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.cataaddfromheader{
+  position: relative;
+  display: grid;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  top: 10px;
+}
+
+.closeiconpopup{
+  position: relative;
+  float: right;
+  top: -17px;
+  right: 6px;
+  font-size: 15px;
+  border: none;
+  background: none;
+
+}
+.dividepoupdrop {
+
+  height: 90px;
+}
+#myMenulistdrop {
+  z-index: 1;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  list-style: none;
+  float: left;
+  width: 100%;
+  overflow-y: scroll;
+  height: 78px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.myMenulistdrop li {
+  cursor: pointer;
+  padding: 5px;
+
+}
+
+#myMenulistdrop li a:hover{
+  background-color: #0f6b93;
+  color: white;
+}
+#myMenulistdrop li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+button#deletpopup{
+  background-color: white;
+  padding: 6px;
+  color: rgb(190,21,21);
+  border-radius: 24px;
+  text-decoration: none;
+  border: 2px solid rgb(242,7,7);
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+
+  z-index: 1;
+  }
+  button#ADDpopup {
+    padding: 6px;
+    color: #216c98;
+    border-radius: 24px;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid (#216c98);
+    border: 2px solid #216c98;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    left: 10px;
+  }
+  .groupingTemplateinput {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 1px;
+    height: 59px;
+    font-size: 11px;
+    outline: none;
+    padding: 28px;
+    width: 100%;
+    font-weight: bold;
+  
+  }
+  #togglenogroupingTemplate{
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -39px;
+    z-index: 1;
+    right: 6px;
+  }
+  #searchpopup{
+    position: relative;
+    color: #0f6b93;
+    top: 39px;
+    z-index: 1;
+    float: left;
+    left: 16px;
+  }
+  .inputsearchdoc{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 1px;
+    height: 59px;
+    font-size: 11px;
+    outline: none;
+    padding: 32px;
+    width: 100%;
+  }
+  .scrollableInput{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 1px;
+    height: 100px;
+    font-size: 11px;
+    outline: none;
+    padding: 6px;
+    width: 100%;
+    overflow-y: scroll;
+    resize: none;
+  }
+
+  .popup {
+    position: absolute;
+    top: 0px;
+    width: 64%;
+    height: 100px;
+    float: right;
+    right: 34%;
+}
+.popup-content {
+  position: relative;
+  z-index: 1;
+  top: 25px;
+}
+
+/* Template part 5 Listing Icon css end */
+.popup-content .fr-toolbar .fr-btn-grp {
+    display: inline-block;
+    margin: 0 17px 0 12px;
+    height: 200px;
+    width: 300px;
+}
+#fr-logo {
+  float: left;
+  outline: none;
+  display: none;
+}
+.dropdown-optionsTemplate ,.dropdown-optionspdf{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.dropdown-optionsTemplate li:hover{
+  background-color: #045679;
+  color: white;
+}
+.dropdown-optionsTemplate li,.dropdown-optionspdf li {
+  padding: 6px;
+  cursor: pointer;
+  font-size: 10px;
+}
+.dropalltemplate {
+  z-index: 1;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 6px;
+  top: -18px;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  width: 100%;
+  height: 150px;
+}
+
+.dropalltemplate li:hover {
+  background-color: #0f6b93;
+  color: white;
+}
+
+.dropalltemplate li {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+#dropdowninputdoctype {
+
+  position: relative;
+  height:40px;
+  width: 100%;
+  top:-32px;
+  outline-color: #0f6b93;
+ }
+ 
+#froala_delete{
+  min-height: 30px;
+  border-top: 1px solid gray;
+}
+#froala_editorco{
+height: 50px;
+}
+.fr-view p {
+  font-weight: normal; /* Remove default bold formatting */
+  /* Add any other default formatting properties you want to reset */
+font-size: 12px;
+
+}
+/* Custom CSS for adjusting the inline toolbar */
+/* .fr-toolbar .fr-btn-grp {
+  display: inline-block;
+  margin: 0 17px 0 12px;
+  height: 150px;
+  width: 352px;
+} */
+.frolaeditordiv {
+  border: 1px solid;
+  padding: 30px;
+  height: 450px;
+  overflow-y: auto;
+}

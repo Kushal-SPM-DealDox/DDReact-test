@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#calcheader {
+    position: relative;
+    top: 70px;
+    margin-left: 73px;
+    padding: 10px;
+    overflow-x: scroll;
+  
+}
+

@@ -1,0 +1,278 @@
+/* Left column (menu) */
+.leftwrite {
+  flex: 35%;
+  background-color: white;
+  border-right: 1px solid black;
+  /* border-left: 1px solid black; */
+  width: 20%;
+  height: 100%;
+}
+
+/* ----------------write plus icon-------------------- */
+.plusiconwrite {
+  left: 100%;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  z-index: 2;
+}
+
+.plusiconwrite a {
+  color: #0f6b93;
+  text-decoration: none;
+}
+
+/* ---------------------------- */
+.dividewrite {
+  overflow-y: scroll;
+  height: 460px;
+}
+
+/* ------------write section search box----------------- */
+.inboxwrite {
+
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  padding-top: 12px;
+  padding-left: 5px;
+  margin: 0 auto;
+
+}
+
+.inboxwrite>i {
+  font-size: 20px;
+  color: #0f6b93;
+}
+
+.inboxwrite input[type="text"] {
+  height: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: larger;
+  width: 100px;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenuwrite {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenuwrite li a {
+  padding: 18px 3px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+.lightgray-bg {
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+.gray-bg {
+  background-color: lightgray;
+}
+
+#myMenuwrite li a:hover {
+  background-color: #045679;
+  color: white;
+  /* padding-left: 30px; */
+}
+
+/* -------------show more left section in write--------------- */
+#morewrite {
+  display: none;
+}
+
+#myBTNwrite {
+  border: none;
+  height: 40px;
+  width: 100%;
+}
+
+/* WriteFlexGroup css */
+
+.nogroupingDoctype {
+ position: relative;
+   height: 20px;
+  }
+  
+  .toggleButton {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 8px;
+   border: 1px solid #ccc;
+   cursor: pointer;  
+  }
+  
+  .groupingdoctypeinput {
+   width: 100%;
+   padding: 6px;
+   border: 1px solid #ccc;
+   font-size: 14px;
+   outline-color: #045679; 
+   font-weight: bold;
+  }
+  
+  
+  ul#groupingdoctypedropdown {
+   position: absolute;
+   width: 100%;
+   padding: 6px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   list-style-type: none;
+   z-index: 1;
+   top: 30px;
+  }
+  
+  
+  ul#groupingdoctypedropdown li {
+   cursor: pointer;
+   padding: 4px;
+   cursor: pointer;
+   font-size: 11px;
+   font-weight: bold; 
+  }
+   
+  ul#groupingdoctypedropdown li:hover {
+   background-color: #0f6b93;
+   color: white;
+  }
+  #togglenogrouping{
+    font-size: 14px;
+    position: relative;
+    top: -26px;
+    float: right;
+    left: -26px;
+    color: #0f6b93;
+  
+  }
+  /* WriteFlexGroup css */
+
+  /* writeflexpeople start css */
+
+  .nogroupingPeople {
+ position: relative;
+   height: 20px;
+  }
+  
+  .toggleButton {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 8px;
+   border: 1px solid #ccc;
+   cursor: pointer;  
+  }
+  
+  .groupingPeopleinput {
+   width: 100%;
+   padding: 6px;
+   border: 1px solid #ccc;
+   font-size: 14px;
+   outline-color: #045679; 
+   font-weight: bold;
+  }
+  
+  
+  ul#groupingPeopledropdown {
+   position: absolute;
+   width: 100%;
+   padding: 6px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   list-style-type: none;
+   z-index: 1;
+   top: 30px;
+  }
+  
+  
+  ul#groupingPeopledropdown li {
+   cursor: pointer;
+   padding: 4px;
+   cursor: pointer;
+   font-size: 11px;
+   font-weight: bold; 
+  }
+   
+  ul#groupingPeopledropdown li:hover {
+   background-color: #0f6b93;
+   color: white;
+  }
+  #togglenogroupingPeople{
+    font-size: 14px;
+    position: relative;
+    top: -26px;
+    float: right;
+    left: -26px;
+    color: #0f6b93;
+  }
+
+
+.nogroupingContent {
+  position: relative;
+    height: 20px;
+   }
+   
+   .toggleButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;  
+   }
+   
+   .groupingcontentinput {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline-color: #045679; 
+    font-weight: bold;
+   }
+   
+   
+   ul#groupingcontentdropdown {
+    position: absolute;
+    width: 100%;
+    padding: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    z-index: 1;
+    top: 30px;
+   }
+   
+   
+   ul#groupingcontentdropdown li {
+    cursor: pointer;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold; 
+   }
+    
+   ul#groupingcontentdropdown li:hover {
+    background-color: #0f6b93;
+    color: white;
+   }
+   #togglenogroupingcontent{
+    font-size: 14px;
+    position: relative;
+    top: -26px;
+    left: 230px;
+    color: #0f6b93;
+   
+   }
+
+

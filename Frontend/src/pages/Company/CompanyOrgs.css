@@ -1,0 +1,640 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#orgsrows {
+    display: flex;
+    background-color: white;
+    margin-left: 68px;
+    padding-top: 67px;
+}
+
+#orgform {
+    height: 59px;
+}
+
+
+#rightOrgshead {
+    height: 60px;
+    margin-left: 21.5%;
+    width: 100%;
+    margin-right: 4px;
+}
+#Orgheader {
+   padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    margin-right: 4px;
+}
+#emsg {
+    color: red;
+    left: -313px;
+    font-size: 8px;
+    top: -22px;
+    position: relative;
+}
+
+#emsg1 {
+    color: red;
+    left: -176px;
+    font-size: 8px;
+    top: -22px;
+    position: relative;
+}
+
+#emsg2 {
+    color: red;
+    left: -177px;
+    font-size: 8px;
+    top: -22px;
+    position: relative;
+}
+
+.grid1 {
+    margin: 10px;
+    width: 100%;
+    top: 11px;
+    left: -10px;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    position: relative;
+}
+
+
+#orgnameinput {
+    height: 59px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 8px;
+
+}
+
+#orgLabel {
+    position: absolute;
+    top: 41px;
+    left: 9px;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#activeorg {
+    border: 1px solid #ccc;
+    height: 59px;
+}
+
+#activeinputorg {
+    top: 7px;
+    left: -3px;
+    position: relative;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+#activelabelorg {
+    position: absolute;
+    top: 41px;
+    left: 87%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#grid2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 59px;
+    top: 1px;
+}
+
+div#orgcode {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div#externall {
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#externalinputorg {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+}
+
+#orgcodeinput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+}
+
+#orglcodelabel {
+  position: relative;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+    float: left;
+    top:-17px;
+    left: 8px;
+
+}
+
+#externallabelorg {
+    position: relative;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+    float: left;
+    top: -17px;
+    position: relative;
+    left: 8px;
+}
+
+#grid3 {
+    width: 100%;
+    top: 1px;
+    height: 59px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+
+}
+
+
+div#orgtype {
+    width: 100%;
+    height: 77%;
+}
+
+#parentinput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 8px;
+}
+
+#parentlabel {
+    position: absolute;
+    top: 69%;
+    left: 1%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#parentlist {
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 110px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#listitems9 {
+    padding: 8px;
+    font-weight: lighter;
+}
+
+.caret-icon {
+    color: #216c98;
+    top: -38px;
+    position: relative;
+    float: right;
+    right: 20px;
+}
+
+#orgtypeinput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 8px;
+
+
+
+}
+
+#orgtypelabel {
+    position: absolute;
+    top: 69%;
+    left: 51%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#orgtypelist {
+
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 110px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    z-index: 1;
+
+}
+
+#listitems1 {
+    padding: 8px;
+    font-weight: lighter;
+}
+
+#parentlist li:hover {
+
+    background-color: #045679;
+    color: white;
+
+}
+
+#orgtypelist li:hover {
+
+    background-color: #045679;
+    color: white;
+
+}
+
+#grid4 {
+    width: 100%;
+    top: 1px;
+    height: 59px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+
+}
+
+#defaulttimeinput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 8px;
+
+
+
+}
+
+#defaulttimelabel {
+    position: absolute;
+    top: 69%;
+    left: 1%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#Defaulthourslabel {
+    position: absolute;
+    top: 71%;
+    left: 51%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+
+}
+
+#defaulttimelist {
+
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 75px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    z-index: 1;
+}
+
+#Defaulthoursinput {
+    position: relative;
+    padding-left: 7px;
+    border: 0.1px solid rgb(218, 217, 217);
+    border-radius: 1px;
+    height: 59px;
+    width: 100%;
+    font-size: medium;
+    font-weight: lighter;
+    font-size: 15px;
+    outline-color: #216c98;
+    padding: 8px;
+
+}
+
+#defaulttimelist li:hover {
+
+    background-color: #045679;
+    color: white;
+
+}
+
+#Defaultweekhours {
+
+    height: 59px;
+}
+
+#listitems2 {
+    padding: 8px;
+    font-weight: lighter;
+}
+
+#grid5 {
+    width: 100%;
+    top: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 59px;
+}
+
+#languageorginput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    outline-color: #216c98;
+    padding: 10px;
+    font-size: 14px;
+
+
+}
+
+#languageorglabel {
+    position: absolute;
+    top: 69%;
+    left: 1%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+
+}
+
+#currencyinput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    outline-color: #216c98;
+
+
+}
+
+#currencylabel {
+    position: absolute;
+    top: 69%;
+    left: 51%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+
+
+}
+
+div#languageorg {
+    height: 59px;
+}
+
+#languageorglist {
+    position: relative;
+
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 181px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    overflow: scroll;
+    z-index: 1
+}
+
+#languageorglist li:hover {
+
+    background-color: #045679;
+    color: white;
+
+}
+
+#listitems3 {
+    padding: 8px;
+    font-weight: lighter;
+}
+
+div#currency {
+    height: 59px;
+}
+
+#currencylist {
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 171px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+#currencylist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+#listitems4 {
+    padding: 8px;
+    font-weight: lighter;
+}
+
+#grid6 {
+    width: 100%;
+    top: 1px;
+    height: 59px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+    position: relative;
+}
+
+#colainput {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    font-size: medium;
+    font-weight: lighter;
+    font-size: 15px;
+    outline-color: #216c98;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+#colalabel {
+    position: absolute;
+    top: 67%;
+    left: 1%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#error-msg {
+    position: ABSOLUTE;
+    LEFT: 1%;
+    top: 43px;
+    font-size: 8px;
+    color: red;
+}
+
+#error-msg-pola {
+    position: absolute;
+    LEFT: 26%;
+    top: 43px;
+    font-size: 8px;
+    color: red;
+}
+
+
+#polainput {
+    position: relative;
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+    font-size: medium;
+    font-weight: lighter;
+    font-size: 15px;
+    outline-color: #216c98;
+    border-radius: 1px;
+    padding: 10px;
+
+}
+
+#polalabel {
+    position: absolute;
+    top: 67%;
+    left: 26%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+#costlabel {
+    position: absolute;
+    top: 67%;
+    left: 71%;
+    font-size: 11px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+div#cost {
+    width: 100%;
+    height: 59px;
+    border: 1px solid #ccc;
+}
+
+
+input#costinput {
+    top: 19%;
+    position: absolute;
+}
+
+
+#removeorg {
+    top: 130px;
+    position: relative;
+    height: 30px;
+    width: 88px;
+    color: maroon;
+    border-radius: 20px;
+    border-color: red;
+    margin-left: 50px;
+}
+
+#orgnameinput::placeholder {
+    font-style: italic;
+    color: #ccc;
+    padding: 6px
+}
+
+#orgcodeinput::placeholder {
+    font-style: italic;
+    color: #ccc;
+    padding: 6px
+}
+
+
+#parentinput::placeholder {
+    font-style: italic;
+    color: #ccc;
+    padding: 6px
+}
+
+#defaulttimeinput::placeholder {
+    font-style: italic;
+    color: #ccc;
+    padding: 6px
+}
+
+#Defaulthoursinput::placeholder {
+    font-style: italic;
+    color: #ccc;
+}
+
+#externalinputorg::placeholder {
+    font-style: italic;
+    color: #ccc;
+    padding: 6px
+}
+
+.plusiconDoctype {
+    padding: 15px;
+    margin-top: 38%;
+    margin-left: 90px;
+    position: fixed;
+    color: #0f6b93;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#colainput::placeholder {
+    font-style: italic;
+    color: #ccc;
+}
+
+#polainput::placeholder {
+    font-style: italic;
+    color: #ccc;
+}

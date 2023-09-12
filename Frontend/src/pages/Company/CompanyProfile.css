@@ -1,0 +1,308 @@
+#compProfile-head {
+    padding-left: 66.5px;
+    padding-top: 68px;  
+    margin-left: 12px;
+    margin-right: 12px;
+   }
+
+#company_profileHead{
+    height: 50px;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    position: relative;
+}
+
+.bmcgrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    position: relative;
+    height: 69px;
+}
+
+
+.bmcgrid label {
+    color: #216c98;
+    top: -20px;
+    left: 10px;
+    font-size: small;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+}
+
+#bmcinput {
+    width: 100%;
+    height: 59px;
+    
+
+}
+input#usertxt {
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    outline-color: #045679;
+}
+
+input#bmcbox {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    outline-color: #216c98;
+    border:1px solid #ccc;
+    padding:10px;
+}
+#Language {
+    width: 100%;
+    height: 59px;
+}
+#langustics {
+    width: 100%;
+    height: 59px;
+    font-size: 12px;
+    padding: 11px;
+    border:1px solid #ccc;
+    outline-color: #216c98;
+}
+.languageslist {
+    position: relative;
+    top: -18px;
+    list-style: none;
+    padding: 4px;
+    /* width: 328px;
+    height: 152px; */
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-size: 15px;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.languageslist li:hover {
+    background-color: #045679;
+    color: white;
+
+}
+
+#languageli {
+    padding: 8px;
+}
+
+#Language button{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #216c98;
+    cursor: pointer;
+    position: relative;
+    /* top: -43px;
+    left: -256px; */
+
+}
+
+
+
+.bmcuser {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.bmcuser label {
+    color: #216c98;
+    top: -20px;
+    left: 10px;
+    font-size: small;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+
+}
+
+#userin {
+    width: 100%;
+    height: 59px;
+    top: -10px;
+    position: relative;
+}
+#usertext {
+    width: 100%;
+    height: 100%;
+    top:1px;
+    border:1px solid #ccc;
+    outline-color: #045679;
+    font-size: 12px;
+    padding: 10px;
+}
+#usrin1 {
+    width: 100%;
+    height: 59px;
+    position: relative;
+    top: -10px;
+}
+#usertext1 {
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    outline-color: #045679;
+
+}
+.contact label {
+    top: 1px;
+    left: 512px;
+    font-size: small;
+    /* font-weight: bold; */
+    font-size: 18px;
+    position: relative;
+}
+
+.bmcadmin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+#useradmin {
+    width: 100%;
+    height: 59px;
+}
+
+
+#useradmin1{
+    width: 100%;
+    height: 59px;
+}
+
+
+#usertxt
+input[type="number"] {
+    padding-left: 7px;
+    border: 0.1px solid rgb(218, 217, 217);
+    border-radius: 1px;
+    height: 59px;
+    width: 100%;
+    font-size: medium;
+    font-weight: lighter;
+    outline-color: #216c98;
+    font-size: 12px;
+    
+}
+#useradmin2 {
+  width: 100%;
+    height: 59px;
+ 
+}
+
+
+#useradmin3 {
+    width: 100%;
+    height: 59px;
+}
+
+#useradmin3
+input[type="email"] {
+    font-size: 12px;
+}
+
+#useradmin4 {
+    width: 100%;
+    height: 59px;
+}
+
+#usertxt1{
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    outline-color: #045679;
+    font-size: 12px;
+}
+
+#useradmin5 {
+    width: 100%;
+    height: 59px;
+}
+#userlast{
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    outline-color: #045679;
+    font-size: 12px;
+}
+#useradmin6{
+    width: 100%;
+    height: 59px;
+}
+#usertxt2{
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    outline-color: #045679;
+    font-size: 12px;
+}
+#useradmin7{
+    width: 100%;
+    height: 59px;
+}
+#usertxt3{
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    outline-color: #045679;
+    font-size: 12px;
+}
+.bmcadmin label {
+    color: #216c98;
+    top: -20px;
+    left: 10px;
+    font-size: small;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+
+}
+
+.bmcadmin input[type="text"] {
+    font-size: 12px;
+}
+
+.adminadd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.adminadd label {
+    color: #216c98;
+    top: -20px;
+    left: 10px;
+    font-size: small;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+}
+
+#logo_update{
+    justify-content: center;
+    display: grid;
+    gap: 15px;
+}
+#update_profile {
+    height: 30px;
+    width: 85px;
+    color: #045679;
+    border-radius: 20px;
+    border-color: #045679;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+

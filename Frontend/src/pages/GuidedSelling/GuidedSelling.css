@@ -1,0 +1,1521 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.grid-containerguide {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  transition: 1s ease;
+  padding-left: 46px;
+  margin-right: 2px;
+  position: fixed;
+}
+
+.sidebarguide {
+  border-right: 1.5px solid #045679;
+  height: 600px;
+  width: 40%;
+  background-color: white;
+  transition: 1s ease;
+  margin-left: 22px;
+  margin-top: 64px;
+  border-left: 2px solid #216c98;
+  border-bottom: 1px solid #216c98;
+}
+
+.guideSelling {
+  height: 35px;
+  padding: 6px;
+}
+
+.guideLabel {
+
+
+  padding-left: 13px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  border-bottom: 1px solid gray;
+}
+
+#DName {
+  margin-left: 250px;
+  align-items: center;
+}
+
+#uName {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  background: lightskyblue;
+  margin-right: 9px;
+}
+
+#source {
+  color: white;
+  font-weight: 700;
+  margin-right: 13px;
+}
+
+#sName {
+  color: white;
+  font-size: 13px;
+  margin-left: -9px;
+  font-weight: 600;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: 1s ease;
+  margin-top: 64px;
+}
+
+.main-content_large {
+  width: 60%;
+}
+
+.sidebar_small {
+  width: 0%;
+}
+
+.btnguide {
+  border: none;
+  height: 70px;
+  width: 13px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  top: 14rem;
+  margin-left: 100%;
+  cursor: pointer;
+  position: relative;
+  background-color: #045679;
+  font-size: 20px;
+  color: aliceblue;
+  opacity: 0.5;
+}
+
+.guidedselling {
+  width: 100%;
+  height: 51px;
+  background-color: #045679;
+  color: white;
+  text-align: center;
+  margin-top: -70px;
+}
+
+.guidedheader {
+  display: flex;
+  width: 101%;
+  height: 51px;
+  background-color: rgb(218, 215, 215);
+}
+
+.xlbutton2 {
+  color: #161717;
+  border: none;
+  font-size: 20px;
+  margin-left: 22px;
+  margin-top: 6px;
+  background-color: rgb(218, 215, 215);
+}
+
+.downloadguide label {
+  font-size: 8px;
+  margin-left: 10px;
+}
+
+.approveguide {
+  padding: 8px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  bottom: 4px;
+  position: relative;
+}
+
+.approveguide:hover {
+  background-color: #016894;
+  color: aliceblue;
+}
+
+.guideapprove {
+  margin-top: 20px;
+  margin-left: 36%;
+}
+
+.quotedetails {
+  width: 30%;
+  padding-top: 15px;
+  margin-left: -9px;
+}
+
+.product {
+  background: white;
+  border: 1px solid lightgray;
+  outline: none;
+  height: 30px;
+  width: 60px;
+  margin-left: 105px;
+  margin-right: -110px;
+}
+
+
+.guidebbtn {
+  width: 44px;
+  height: 18px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 48%;
+  border: 1px solid gray;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+
+.guideleft {
+  width: 49%;
+  float: left;
+  margin-left: 10px;
+}
+
+.guideleft input[type="text"] {
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+.containerGA {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#contentG1 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG2 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.containerGB {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#contentG3 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG4 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG5 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG6 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.guideleft input[type="text"] {
+  height: 59px;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+.guideright {
+  width: 49%;
+  float: right;
+}
+
+.containerGC {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contentG7 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG8 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG9 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.containerGD {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contentG10 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG11 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG12 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.guideright input[type="number"] {
+  padding-left: 7px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+.guideright input::-webkit-outer-spin-button,
+.guideright input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#contentG13 {
+  margin-left: 10px;
+}
+
+#contentG13 label {
+  color: #216c98;
+  top: -40px;
+  left: 5px;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG13 textarea {
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 14px;
+  outline-color: #216c98;
+}
+
+/* .hiddenguide {
+  display: none;
+} */
+
+
+
+.billing input[type="number"] {
+  width: 100%;
+}
+
+.selecter {
+  padding: 5px;
+  height: 59px;
+  border-radius: 1px;
+  font-size: small;
+  font-size: 11px;
+  background-color: white;
+  position: relative;
+  border: 0.5px solid rgb(218, 217, 217);
+  color: black;
+  outline-color: #216c98;
+}
+
+#configTable {
+  margin-right: -78px;
+  position: relative;
+  top: -17px;
+  font-size: 20px;
+  color: #6c6c6c;
+}
+
+#arrowrightleft {
+  bottom: 19px;
+  position: relative;
+}
+
+.guideApply {
+  border: 2px solid #0aa7eb;
+  background: none;
+  color: #0aa7eb;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 40%;
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+#gsLabel {
+  bottom: 5px;
+  position: relative;
+}
+#guidedsabel {
+  bottom: 6px;
+  position: relative;
+}
+#settingicon{
+  float:right;
+  font-size: 22px;
+  color: #757474;
+}
+#settingicon:hover{
+  color:  #216c98;
+}
+#pencil:hover{
+  color:  #216c98;
+}
+/* ********************************************************** */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.grid-containerguide {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  transition: 1s ease;
+  padding-left: 46px;
+  margin-right: 2px;
+  position: fixed;
+}
+
+.sidebarguide {
+  border-right: 1.5px solid #045679;
+  height: 600px;
+  width: 40%;
+  background-color: white;
+  transition: 1s ease;
+  margin-left: 22px;
+  margin-top: 64px;
+  border-left: 2px solid #216c98;
+  border-bottom: 1px solid #216c98;
+}
+
+.guideSelling {
+  height: 35px;
+  padding: 6px;
+}
+
+.guideLabel {
+  /* width: 100%; */
+  /* height: 35px; */
+  padding-left: 13px;
+  padding-bottom: 5px;
+  font-size: 10px;
+  border-bottom: 1px solid gray;
+}
+
+#DName {
+  margin-left: 250px;
+  align-items: center;
+}
+
+#uName {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  background: lightskyblue;
+  margin-right: 9px;
+}
+
+#source {
+  color: white;
+  font-weight: 700;
+  margin-right: 13px;
+}
+
+#sName {
+  color: white;
+  font-size: 13px;
+  margin-left: -9px;
+  font-weight: 600;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: 1s ease;
+  margin-top: 64px;
+  margin-right: 10px;
+}
+
+.main-content_large {
+  width: 60%;
+}
+
+.sidebar_small {
+  width: 0%;
+}
+
+.btnguide {
+  border: none;
+  height: 70px;
+  width: 13px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3); */
+  top: 14rem;
+  /* float: right; */
+  margin-left: 100%;
+  /* transform: translateX(-50%); */
+  cursor: pointer;
+  position: relative;
+  background-color: #045679;
+  font-size: 20px;
+  color: aliceblue;
+  opacity: 0.5;
+}
+
+.guidedselling {
+  width: 100%;
+  height: 51px;
+  background-color: #045679;
+  color: white;
+  text-align: center;
+  margin-top: -70px;
+}
+
+/* ---------middle side guided selling---------- */
+.guidedheader {
+  display: flex;
+  width: 101%;
+  height: 51px;
+  background-color: rgb(218, 215, 215);
+}
+
+.xlbutton2 {
+  color: #161717;
+  border: none;
+  font-size: 20px;
+  margin-left: 22px;
+  margin-top: 6px;
+  background-color: rgb(218, 215, 215);
+}
+
+.downloadguide label {
+  font-size: 8px;
+  margin-left: 10px;
+}
+
+.approveguide {
+  padding: 8px;
+  color: rgb(71, 196, 246);
+  border-radius: 24px;
+  background-color: rgb(247, 247, 247);
+  text-decoration: none;
+  border: 2px solid skyblue;
+  font-size: 10px;
+  font-weight: bold;
+  bottom: 4px;
+  position: relative;
+}
+
+.approveguide:hover {
+  background-color: #016894;
+  color: aliceblue;
+}
+
+.guideapprove {
+  margin-top: 20px;
+  margin-left: 36%;
+}
+
+.quotedetails {
+  width: 30%;
+  padding-top: 15px;
+  margin-left: -9px;
+}
+
+.product {
+  background: white;
+  border: 1px solid lightgray;
+  outline: none;
+  height: 30px;
+  width: 60px;
+  margin-left: 105px;
+  margin-right: -110px;
+}
+
+/* .active,
+  .product:hover {
+    background-color: #045679;
+    color: white;
+  } */
+
+/* --------guidebutton and details---------- */
+.guidebbtn {
+  width: 44px;
+  height: 18px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 48%;
+  border: 1px solid gray;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+
+/* -------guidedetails--------- */
+.guideleft {
+  width: 49%;
+  float: left;
+  margin-left: 10px;
+}
+
+.guideleft input[type="text"] {
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+/* .containerGA {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+#contentG1 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG2 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+/* .containerGB {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+#contentG3 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG4 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG5 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG6 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.guideleft input[type="text"] {
+  height: 59px;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+/* ----------------------------- */
+.guideright {
+  width: 49%;
+  float: right;
+}
+
+.containerGC {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contentG7 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG8 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG9 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.containerGD {
+  height: 59px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#contentG10 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG11 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG12 label {
+  top: -20px;
+  margin-left: 5px;
+  color: #216c98;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+.guideright input[type="number"] {
+  padding-left: 7px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+.guideright input::-webkit-outer-spin-button,
+.guideright input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#contentG13 {
+  margin-left: 10px;
+}
+
+#contentG13 label {
+  color: #216c98;
+  top: -40px;
+  left: 5px;
+  font-size: small;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+}
+
+#contentG13 textarea {
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 14px;
+  outline-color: #216c98;
+}
+/* 
+.hiddenguide {
+  display: none;
+} */
+
+.inputTextA1 {
+  padding-left: 7px;
+  border: 0.1px solid rgb(218, 217, 217);
+  border-radius: 1px;
+  height: 59px;
+  width: 100%;
+  font-size: medium;
+  font-weight: lighter;
+  font-size: 15px;
+  outline-color: #216c98;
+}
+
+
+.billing input[type="number"] {
+  width: 100%;
+}
+
+.selecter {
+  padding: 5px;
+  height: 59px;
+  border-radius: 1px;
+  font-size: small;
+  font-size: 11px;
+  background-color: white;
+  position: relative;
+  border: 0.5px solid rgb(218, 217, 217);
+  color: black;
+  outline-color: #216c98;
+}
+
+#configTable {
+  margin-right: -78px;
+  position: relative;
+  top: -17px;
+  font-size: 20px;
+  color: #6c6c6c;
+}
+
+#arrowrightleft {
+  bottom: 19px;
+  position: relative;
+}
+
+/* APPLY BUTTON CSS */
+.guideApply {
+  border: 2px solid #0aa7eb;
+  background: none;
+  color: #0aa7eb;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 40%;
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+#gsLabel {
+  bottom: 5px;
+  position: relative;
+}
+#guidedsabel {
+  bottom: 6px;
+  position: relative;
+}
+#pencil:hover{
+  color:  #216c98;
+}
+/* guided selling css start */
+.navside a .dropdown-btn {
+  padding: 0px 8px 6px 23px;
+  margin-top: 4px;
+  text-decoration: none;
+  font-weight: 750;
+  font-size: 13px;
+  color: black;
+  display: block;
+  border: 1px #045679;
+  background: white;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  height: 35px;
+  overflow: hidden;
+}
+
+.dropdown-containerBid {
+  font-size: 20px;
+  color: #045679;
+  outline: #045679;
+  display: none;
+}
+.txt {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  display: grid;
+  grid-template-columns: 2fr 6fr 4fr;
+  border: 1px solid lightgray;
+  align-items: center;
+  align-content: space-around;
+  /* text-align: center; */
+}
+#text-to-copyBid{
+  font-size: 15px;
+  height: 40px;
+  margin-bottom: 5px;
+  border-right: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+#guidedFieldsBid {
+  padding-left: 5px;
+  font-size: 12px;
+}
+#bidIcon {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+.popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+.generalBtn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+}
+#gddata {
+  width: 100%;
+  background: white;
+  height: 45px;
+  border: 1px solid lightgray;
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+  padding-left: 13px;
+  margin-top: 10px;
+}
+
+/* ************************************************************************************** */
+/* Copy Functionality css */
+#text-to-copy {
+  font-size: 15px;
+  height: 40px;
+  margin-bottom: 5px;
+  border-right: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#cpbtn {
+  float: right;
+  margin-top: -35px;
+  border: none;
+  outline: none;
+  width: 31px;
+  height: 31px;
+  border-radius: 20px;
+  background: none;
+}
+
+#cpbtn:hover {
+  background-color: rgb(6, 111, 140);
+  transition: 0.5s ease;
+  color: white;
+}
+
+.txt {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  display: grid;
+  grid-template-columns: 2fr 6fr 4fr;
+  border: 1px solid lightgray;
+  align-items: center;
+  align-content: space-around;
+  /* text-align: center; */
+}
+
+#guidedFields {
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+#guidedFieldsHead {
+  font-weight: 500;
+  color: rgb(201, 35, 35);
+  padding-top: 15px;
+  padding-left: 5px;
+  border-right: 1px solid lightgray;
+  height: 40px;
+  justify-content: space-around;
+}
+
+#billingCustomer {
+  height: 40px;
+  outline: none;
+  border: 1px solid lightgray;
+  text-align: center;
+  background: rgb(240, 238, 238);
+  font-size: 12px;
+}
+
+#country-select{
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  background: white;
+  font-size: 13px;
+  font-weight: 100;
+}
+#currency-input{
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  background: rgb(240, 238, 238);
+  font-size: 12px;
+}
+
+#folderIcon {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#address {
+  display: none;
+}
+
+.addressBtn {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+#shipTable {
+  display: none;
+}
+
+#billTable {
+  display: none;
+}
+
+#shipAdd {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.billAdd {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* OPPORTUNITY DETAILS IN GUIDED SELLING */
+#oppBtn {
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+#oppIcon {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#opportunity {
+  display: none;
+}
+
+#csamData {
+  display: none;
+}
+
+.csamForm {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+#read {
+  background: white;
+  color: #045679;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+#read-1 {
+  background: white;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+/* START OF QUOTE DETAILS */
+#quoteIcon {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#quote {
+  display: none;
+}
+
+#guidedFieldsQuote {
+  padding-left: 10px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+#quoteAngleBtn {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 1px solid lightgray;
+}
+
+#tScope {
+  display: none;
+}
+
+.type {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  border-bottom: 1px solid lightgray;
+}
+
+.scope {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  /* display: none; */
+  margin-bottom: 10px;
+  /* margin-top: -10px; */
+  border-bottom: 1px solid lightgray;
+}
+
+#quoteSelect {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+/* BID ESTIMATION CSS */
+#bidIcon {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#bidData {
+  display: none;
+  color: #045679;
+}
+
+
+/* POPUP PAGE CSS */
+
+.popupGS {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  border: 2px solid #0aa7eb;
+  padding: 10px;
+  z-index: 1000;
+  display: none;
+  overflow: scroll;
+}
+
+.popupBackground {
+  display: grid;
+  grid-template-columns: 11fr 1fr;
+  height: 15px;
+  margin-bottom: 30px;
+}
+
+#popupIcon {
+  float: right;
+  color: #0aa7eb;
+  margin-top: -45px;
+}
+
+
+.txtPopup {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  margin-top: -10px;
+}
+
+#readPopupHead {
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+#readPopup{
+  height: 40px;
+  outline: none;
+  text-align: center;
+  align-content: space-around;
+  border: 1px solid lightgray;
+  color: #0c729e;
+  /* font-weight: bold; */
+  font-size: 12px;
+
+}
+
+#editPopup {
+  height: 40px;
+  /* outline: none; */
+  text-align: center;
+  align-content: space-around;
+  border: 1px solid lightgray;
+  outline-color: #045679;
+
+}
+
+#containerPopup {
+  display:none;
+}
+
+#popupIcon {
+  background: none;
+  border: none;
+  padding-left: 120px;
+  margin-bottom: 20px;
+}
+
+.txt input[type="text"] {
+  width: 100%;
+  height: 100%;
+}
+div#hideOnExpand {
+  overflow-y: scroll;
+  height: 390px;
+}
+/* BID ESTIMATION TABLE CSS */
+#gddata {
+  width: 100%;
+  background: white;
+  height: 45px;
+  border: 1px solid lightgray;
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+  padding-left: 13px;
+  margin-top: 10px;
+}
+
+#tbvalue {
+  display: none;
+}
+
+th {
+  /* padding-left: 20px; */
+  height: 45px;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  color: #045679;
+  font-size: 7px;
+  text-align: center;
+}
+
+td {
+  /* padding-left: 25px; */
+  height: 45px;
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  font-size: 12px;
+  text-align: center;
+}
+
+#bord {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 90%;
+}
+
+#servicevalue {
+  display: none;
+}
+
+#link-to-copy {
+  font-size: 15px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+#linkbtn {
+  float: right;
+  margin-top: -35px;
+  border: none;
+  outline: none;
+  width: 31px;
+  height: 31px;
+  border-radius: 20px;
+  background: none;
+}
+
+#linkbtn:hover {
+  background-color: rgb(6, 111, 140);
+  transition: 0.5s ease;
+  color: white;
+}
+
+
+/* APPLY BUTTON CSS */
+.guideApply {
+  border: 2px solid #0aa7eb;
+  background: none;
+  color: #0aa7eb;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 40%;
+  width: 80px;
+  height: 25px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* Services Css Start Section */
+
+
+.servicelabel {
+  border-top: 1px solid lightgray;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  height: 40px;
+}
+
+.servicebox {
+  border-top: 1px solid lightgray;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  height: 40px;
+}
+
+#proffessionalCircle{
+  margin-left: 43%;
+  height: 40px;
+}
+
+#management{
+  appearance: none;
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid lightgray;
+  margin-top: 8px;
+  margin-left: 100px;  
+  cursor: pointer;
+}
+
+#managementCircle{
+  margin-left: 43%;
+  height: 40px;
+}
+.selecter, select {
+  padding: 5px;
+  height: 59px;
+  border-radius: 1px;
+  font-size: small;
+  font-size: 11px;
+  background-color: white;
+  position: relative;
+  border: 0.5px solid rgb(218, 217, 217);
+  color: black;
+  outline-color: #216c98;
+}
+i#closemark {
+  position: relative;
+  font-weight: 900;
+  color: black;
+  top: 10px;
+}
+
+/* **************************************************************************************** */
+/* guided selling css end */
+
+.bidIcon {
+  height: 40px;
+  outline: none;
+  border-left: 1px solid lightgray;
+  text-align: center;
+  padding-top: 15px;
+}

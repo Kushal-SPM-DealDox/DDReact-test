@@ -1,0 +1,62 @@
+.grid-containertemplate {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(20, 1fr); 
+    gap: 5px; 
+    height: 600px;
+    width: 100%;
+  }
+  
+  .grid-item {
+
+    border: solid 1px;
+}
+
+#tblStockstemplate {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tblStockstemplate td,
+  #tblStockstemplate th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-color: rgba(0, 0, 0, 0.1);
+    text-overflow: ellipsis;
+  }
+  
+  #tblStockstemplate td {
+    border: none;
+  }
+
+  
+  #tblStockstemplate tr:hover {
+    background-color: #ddd;
+  }
+  
+  #tblStockstemplate th {
+  
+    padding-left: 25px;
+    text-align: left;
+    color: black;
+  }
+  
+  #tblStockstemplate td {
+    width: 20px;
+    color: black;
+  }
+  
+  #tblStockstemplate tr {
+    height: 20px;
+    color: black;
+    font-size: small;
+  }
+  
+  .ellipsis th {
+    white-space: nowrap;
+  }
+  .listTemplate{
+    margin-top: -65px;
+    overflow-y: scroll;
+  }

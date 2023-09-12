@@ -1,0 +1,770 @@
+ div#textdesc {
+    position: relative;
+    top: 35px;
+}
+
+.rowrolesetup {
+    display: flex;
+    background-color: white;
+    padding-left: 66px;
+    padding-top: 65px;
+}
+.rolesetupcontainer1 label{
+display: grid;
+justify-content: left;
+color: #216c98;
+font-size: small;
+font-weight: bold;
+font-size: 11px;
+position: relative;
+top: -20px;
+left: 5px;
+}
+.plusiconRoles {
+
+    padding: 15px;
+    margin-top: 38%;
+    margin-left: 90px;
+    position: fixed;
+    color: #0f6b93;
+    text-decoration: none;
+}
+
+
+.rightrolesetup {
+    flex: 75%;
+    width: 80%;
+    margin-left: 21.5%;
+    background-color: white;
+    padding-right: 1px;
+    padding-top: 3px;
+
+}
+
+
+#headerRoles {
+    padding-top: 13px;
+    height: 48px;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+}
+
+.rolesetupcontainer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60px;
+}
+
+.rolesetupinputb1 {
+ padding-left: 6px;
+border: 0.1px solid rgb(218, 217, 217);
+border-radius: -15px;
+height: 60px;
+width: 100%;
+font-size: medium;
+font-weight: lighter;
+font-size: 14px;
+outline-color: #216c98;
+
+}
+
+.rolesetupinputb2 {
+    padding-left: 6px;
+    border: 0.1px solid rgb(218, 217, 217);
+    border-radius: -15px;
+    height: 60px;
+    width: 100%;
+    font-size: medium;
+    font-weight: lighter;
+    font-size: 14px;
+    outline-color: #216c98;
+
+}
+
+#rolesetupv2 {
+    color: #216c98;
+    left: 5px;
+    top: -21px;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+}
+
+.rolesetupinputb3 {
+padding-left: 6px;
+border: 0.1px solid rgb(218, 217, 217);
+border-radius: -15px;
+height: 60px;
+width: 100%;
+ font-weight: lighter;
+font-size: 14px;
+outline-color: #216c98;
+
+}
+
+
+#rolesetupv1,
+#rolesetupv3,
+#rolesetupv4,
+#rolesetupv5,
+#rolesetupv6,
+#rolesetupv7,
+#rolesetupv8 {
+color: #216c98;
+top: -20px;
+left: 5px;
+font-weight: bold;
+font-size: 11px;
+position: relative
+}
+
+
+.rolesetupinputb4,
+.rolesetupinputb5,
+.rolesetupinputb6 {
+padding-left: 6px;
+border: 0.1px solid rgb(218, 217, 217);
+border-radius: -15px;
+height: 60px;
+width: 100%;
+font-size: medium;
+font-weight: lighter;
+font-size: 14px;
+outline-color: #216c98;
+
+}
+
+.rolesetupinputb4 {
+padding-left: 6px;
+border: 0.1px solid rgb(218, 217, 217);
+border-radius: -15px;
+height: 60px;
+width: 100%;
+font-size: medium;
+font-weight: lighter;
+font-size: 14px;
+outline-color: #216c98;
+}
+
+.rolesetupinputb7,
+.rolesetupinputb8{
+padding-left: 6px;
+border: 0.1px solid rgb(218, 217, 217);
+border-radius: -15px;
+height: 60px;
+width: 100%;
+font-weight: lighter;
+font-size: 14px;
+outline-color: #216c98;
+}
+
+.rolesecomain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height:60px;
+    margin-top: 40px;
+}
+
+.rolesmain2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 60px;
+}
+
+
+input#rolesetupCHECK {
+    height: 17px;
+    width: 77px;
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: 15px;
+    right: 43%;
+}
+#rolesetupv9 {
+    display: grid;
+    justify-content: center;
+    color: #216c98;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    top:   40px;
+   left:  19px;
+   }
+
+.errormessagerolename {
+    position: relative;
+    top: -14px;
+    color: #f00202;
+    outline-color: #f00202;
+    left: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#cacarole {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -40px;
+    right: 22px;
+
+}
+
+.ulrolecaca {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-top: -20px;
+    list-style: none;
+
+}
+
+.ulrolecaca li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+.ulrolecaca li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#castlabelullist {
+    z-index: 7;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-top: -19px;
+    list-style: none;
+
+}
+
+#castlabelullist li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+#castlabelullist li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+svg#sttogglecatalogstatus {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -38px;
+    right: 22px;
+}
+
+#roletypelist {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-top: -19px;
+    list-style: none;
+}
+
+#roletypelist li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+#roletypelist li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#sttoggleroletype {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -38px;
+    right: 22px;
+}
+
+#rolegrouplist {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-top: -19px;
+    list-style: none;
+}
+
+#rolegrouplist li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+#rolegrouplist li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#sttogglerolegroup {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -37px;
+    right: 22px;
+}
+
+.rolepracticelist {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-top: -19px;
+    list-style: none;
+}
+
+.rolepracticelist li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+.rolepracticelist li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#sttogglpractice {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -34px;
+    right: 22px;
+}
+
+#roleparentlist {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-top: -19px;
+    list-style: none;
+}
+
+#roleparentlist li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+#roleparentlist li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#toggleparent {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -36px;
+    right: 22px;
+}
+
+
+.headerRoles2 {
+    position: relative;
+    height: 48px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    top: 20px;
+
+}
+label.catelabelroles {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    left: 42%;
+    top: 13px;
+}
+
+.categaries1grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    height: 60px;
+    position: relative;
+    top: 20px;
+}
+
+
+.categariesgrid2{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    height: 60px;
+    position: relative;
+    top: 16px;
+}
+.categaries select {
+    padding-left: 7px;
+    border: 0.1px solid rgb(218, 217, 217);
+    height: 57px;
+    font-size: 12px;
+    outline-color: #216c98;
+    width: 100%;
+    background-color: white;
+}
+div#contentS123 {
+    height: 59px;
+}
+
+.categaries input[type="text"] {
+    padding-left: 7px;
+    border: 0.1px solid rgb(218, 217, 217);
+
+    height: 57px;
+    font-size: medium;
+    font-weight: lighter;
+    font-size: 12px;
+    outline-color: #216c98;
+    width: 100%;
+}
+
+#rolecatalist1 {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1px;
+    list-style: none;
+    top: -18px;
+}
+ul#rolecatalist1  li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+ul#rolecatalist1  li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#togglecata1 {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -37px;
+    right: 22px;
+}
+#norefo1{
+    text-align: center;
+    font-size: 12px;
+    }
+
+
+ul#rolecatalist33 {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1px;
+    list-style: none;
+    top: -18px;
+}
+ul#rolecatalist33  li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+ul#rolecatalist33  li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#togglecata33 {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -37px;
+    right: 22px;
+}
+#labelcata33{
+    text-align: center;
+    font-size: 12px;
+    }
+
+
+ul#rolecatalist44 {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1px;
+    list-style: none;
+    top: -18px;
+}
+ul#rolecatalist44  li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+ul#rolecatalist44  li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#togglecata44 {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -37px;
+    right: 22px;
+}
+#labelcata44{
+    text-align: center;
+    font-size: 12px;
+    }
+ul#rolecatalist55 {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1px;
+    list-style: none;
+    top: -18px;
+}
+ul#rolecatalist55  li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+ul#rolecatalist55  li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#togglecata55 {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -37px;
+    right: 22px;
+}
+#labelcata55{
+    text-align: center;
+    font-size: 12px;
+    }
+ul#rolecatalist66 {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 1px;
+    list-style: none;
+    top: -18px;
+}
+ul#rolecatalist66  li:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+ul#rolecatalist66  li {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+#togglecata66 {
+    color: #0f6b93;
+    position: relative;
+    float: right;
+    top: -37px;
+    right: 22px;
+}
+#deflist{
+    text-align: center;
+    font-size: 12px;
+    }
+#contentS123 label {
+    top: -20px;
+    margin-left: 4px;
+    color: #216c98;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+
+}
+#togglecategaries{
+    position: relative;
+    left: 44%;
+    top: 12px;
+    font-size: 15px;
+}
+
+.headerRoles3 {
+    height: 48px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+    position: relative;
+    top: 34px;
+}
+svg#toggledescription {
+    position: relative;
+    left: 44%;
+    top: 12px;
+    font-size: 15px;
+   
+}
+
+label.desclabel {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    left: 42%;
+    top: 13px;
+}
+
+.requillgrid{
+    display: grid;
+    width: 100%; 
+}
+.quill {
+    height: 100px;
+    top: 19px;
+    position: relative;
+}
+.addinfoforroles {
+    position: relative;
+    top: 35px;
+} 
+#deletrole {
+    padding: 6px;
+    color: rgb(190, 21, 21);
+    border-radius: 24px;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid rgb(242, 7, 7);
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+ 
+}
+
+#newrolecreate {
+    padding: 6px;
+    color: #216c98;
+    border-radius: 24px;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid #216c98;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+   
+}
+.cancelroles{
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: 40%;
+}
+
+.navsideskils {
+    width: 100%;
+    padding-top: 0%;
+    margin-left: 0%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(215, 228, 224);
+    flex: 1;
+  }
+
+  .navsideskils  a,
+  .dropdown-btnskil {
+    padding: 0px 8px 6px 23px;
+    margin-top: 4px;
+    text-decoration: none;
+    font-weight: 750;
+    font-size: 11px;
+    color: #045679;
+    display: block;
+    border: 1px #045679;
+    background: white;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    overflow: hidden;
+  }
+  #faplusakil{
+    margin-top: -27px;
+    color: #045679;
+    font-size: 12px;
+    float: right;
+    left: -113px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    top: 10px;
+  }
+
+
+ 
+#nodtaplus{
+    position: relative;
+font-size: 10px;
+ text-align: center;
+font-weight: bold;
+color:black;
+font-weight: bold;
+ color: lightgray;
+}

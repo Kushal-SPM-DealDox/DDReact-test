@@ -1,0 +1,276 @@
+.rowdoctypes {
+    display: flex;
+    padding-left: 66px;
+    padding-top: 66px;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+}
+
+.plusiconDoctype1 {
+    padding: 15px;
+    color: #0f6b93;
+    text-decoration: none;
+    background-color: lightblue;
+    bottom: 0;
+    width: 238px;
+    text-align: center;
+    position: fixed;
+}
+
+.row1 {
+    width: 240px;
+}
+
+.row2 {
+    flex: 1;
+    padding: 20px;
+}
+
+#header {
+    margin-top: -6px;
+    padding-top: 20px;
+    padding-left: 2px;
+    height: 60px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border-radius: 1px;
+}
+
+.worddocdowicon {
+    font-size: 29px;
+    color: #0f6b93;
+    position: relative;
+    bottom: 30px;
+    left: 48%;
+}
+
+#wordtemplatelabel {
+    color: black;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+    right: 55px;
+}
+
+.containerBV {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 600px) {
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    @media (min-width: 800px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (min-width: 1000px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+#contentBV {
+    height : 60px;
+    border: 0.1px solid rgb(218, 217, 217);
+}
+
+#contentBV input[type="text"],
+#contentBV input[type="file"]{
+    border: 0px solid rgb(218, 217, 217);
+    height: 58px;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    outline-color: #216c98;
+}
+
+.label {
+    color: #216c98;
+    top: -15px;
+    left: 5px;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative;
+    display: block;
+    height: 12px;
+    overflow: hidden;      
+}
+
+.checkdiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#internaltick {
+    display: grid;
+    grid-template-rows: 0.7fr 1.3fr;
+}
+
+.tick {
+    margin-top: 15px;
+    text-align: center;
+    color: #216c98;
+    font-size: small;
+    font-weight: bold;
+    font-size: 11px;
+    height: 12px;
+    overflow: hidden;
+}
+
+#toggleArrow{
+    position: relative;
+    top: -38px;
+    float: right;
+    right: 10px;
+    color: #0f6b93;
+    border: none;
+    background: none;
+}
+
+#cancelButton{
+    padding: 6px;
+    position: relative;
+    top: -38px;
+    float: right;
+    right: 10px;
+    color: #0f6b93;
+    border-radius: 41px;
+    font-size: 10px;
+    font-weight: bold;
+    }
+
+.hidden {
+    display: none;
+}
+
+.active_doc {
+    display: block;
+}
+
+#fileIcon {
+    padding: 4px;
+    position: relative;
+    top: -36px;
+    float: right;
+    right: 18px;
+    color: #0f6b93;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fileIcon:hover {
+    background-color: #0f6b93;
+    color: white;
+}
+
+#cancelfileicon {
+    padding: 5px;
+    position: relative;
+    top: -36px;
+    float: right;
+    right: -49px;
+    color: #f00202;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#cancelfileicon:hover {
+    background-color: #f00202;
+    color: white;
+}
+
+#headersectionDoctype {
+    margin-top: 15px;
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    background: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 1px;
+}
+
+.containersectionDoc{
+    display: grid;
+    height: 60px;
+    grid-template-columns: 0.75fr 2fr 2fr;
+    text-align: center;
+    padding: 20px 0px 20px 10px;
+}
+
+.buttonsectionUP{
+    border: 0.1px solid rgb(218, 217, 217);
+    height: 60px;
+    /* justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.classbtn {
+    justify-content: center;
+    display: grid;
+    padding: 10px;
+}
+
+#buttonUpDate {
+    padding: 8px 30px;
+    color: #0f6b93;
+    border-radius: 24px;
+    background-color: rgb(247, 247, 247);
+    /* opacity: 0.5; */
+    border: 1.5px solid skyblue;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+#buttonDelete {
+    padding: 8px 30px;
+    color: red;
+    border-radius: 24px;
+    background-color: rgb(247, 247, 247);
+    /* opacity: 0.5; */
+    border: 1.5px solid red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.delete-buttonsection {
+    position: relative;
+    color: red;
+    top: 19px;
+    font-size: 15px;
+    left: -4px;
+    font-size: 20px;
+    width: 30px;
+    background-color: white;
+    border: none;
+}
+
+.highlightedsection {
+    background-color: #f00202;
+    color: white;
+    position: relative;
+    top: -1px;
+    font-size: 15px;
+    left: -19px;
+    font-size: 20px;
+    width: 47px;
+    border: none;
+    height: 60px;
+}

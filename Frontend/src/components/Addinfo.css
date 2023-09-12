@@ -1,0 +1,302 @@
+#grid7 {
+    width: 100%;
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    outline-color: none;
+
+}
+
+#additionallabel {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+
+#define {
+    position: absolute;
+    top: 40%;
+    left: 95%;
+    font-size: 12px;
+    color: #216c98;
+    font-weight: bold;
+}
+
+
+
+#containeraddinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+div#plusiconaddinfo {
+    border: 1px solid #ccc;
+    width: 100%;
+    position: relative;
+    height: 65px;
+    top: 10px;
+}
+
+#aiangleup {
+    position: relative;
+    top: -28px;
+    left: 62px;
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+
+#aiangledown {
+    position: relative;
+    top: -26px;
+    left: 525px;
+    font-weight: lighter;
+}
+
+input#plusbtn {
+    width: 100%;
+    height: 32%;
+    background: none;
+    border: none;
+    position: relative;
+    top: 20px;
+    color: #216c98;
+    cursor: pointer;
+}
+
+.input-section {
+    position: relative;
+    height: 65px
+}
+
+div#additional {
+    top: 1px;
+    position: relative;
+}
+
+#additionalbtn {
+    position: relative;
+    top: 1px;
+    height: 44px;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+
+div#checkboxDiv {
+    position: relative;
+    display: flex;
+    bottom: 60px;
+    float: right;
+    right: 50px;
+}
+#checkboxpoa {
+    position: relative;
+}
+
+#checkboxpoalabel {
+    font-size: 10px;
+    position: relative;
+    color: #216c98;
+}
+
+#checkboxao {
+    position: relative;
+    margin-left: 10px;
+}
+#checkboxaolabel {
+    font-size: 10px;
+    position: relative;
+    color: #216c98;
+}
+#checkboxro {
+    position: relative;
+    margin-left: 10px;
+}
+#checkboxrolabel {
+    font-size: 10px;
+    position: relative;  
+    color: #216c98;
+}
+
+
+
+#ailistinput {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    padding: 23px;
+    outline-color: #216c98;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+#addinfolabel {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    left: 40%;
+    top: 13px;
+}
+
+
+#grid9 {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+#NCFDinput {
+    height: 25px;
+    background: white;
+    outline-color: white;
+    border: 1px solid #ccc;
+}
+
+label#NCFDlabel {
+    position: absolute;
+    left: 40%;
+    top: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+#additionalinfolist {
+    position: relative;
+    list-style: none;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 5px;
+    z-index: 1;
+}
+
+#additionalinfolist li:hover {
+    background-color: #045679;
+    color: white;
+}
+
+#ailist1 {
+    padding: 5px;
+}
+
+#ailist2 {
+    padding: 5px;
+}
+
+#ailist3 {
+    padding: 5px;
+}
+
+#editable {
+    position: relative;
+    bottom: 35px;
+    left: 8px;
+    height: 15px;
+    width: 92%;
+    font-size: 12px;
+    font-weight: 100;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline-color: white;
+}
+
+
+#editable:hover {
+    border-bottom: 1px solid #045679;
+}
+
+#editable::placeholder {
+    font-style: italic;
+    color: #045679;
+    font-size: 11px;
+}
+
+#trashbtn {
+    color: #ff0000;
+    bottom: 40px;
+    position: relative;
+    float: right;
+    margin-right: 6px;
+}
+
+#moveprevbtn {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: none;
+    background: none;
+    position: relative;
+    top: 13px;
+    z-index: 1;
+    font-size: 9px;
+    font-weight: bold;
+    color: #216c98;
+    cursor: pointer;
+    float: right;
+}
+
+.show-move-prev #moveprevbtn {
+    opacity: 1;
+}
+
+#moveprevbtn:hover {
+    color: #216c98
+}
+
+#movenextbtn {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    border: none;
+    background: none;
+    position: relative;
+    top: 61px;
+    left: 58px;
+    z-index: 1;
+    font-size: 9px;
+    font-weight: bold;
+    color: #216c98;
+    cursor: pointer;
+    float: right;
+}
+
+.show-move-next #movenextbtn {
+    opacity: 1;
+}
+
+#movenextbtn:hover {
+    color: #216c98
+}
+
+svg#fagearai {
+    top: -21px;
+    width: 9px;
+    position: relative;
+    color: #216c98;
+    float: right;
+    right: 54px;
+
+}
+
+svg#fapenai {
+    position: relative;
+    top: -21px;
+    width: 9px;
+    color: #216c98;
+    float: right;
+    right: 54px;
+}
+
+#infoangle {
+    position: relative;
+    left: 41%;
+    top: 12px;
+    font-size: 15px;
+}

@@ -1,0 +1,103 @@
+.flex-container_register{
+    margin-top: 70px;
+}
+
+.regForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+
+}
+
+.regForm input {
+    height: 35px;
+    border: none;
+    width: 300px;
+    border-bottom: 1px solid #216c98;
+    /* text-align: center; */
+}
+
+#phone, input[type="tel"] {
+    height: 35px;
+    border: none;
+    width: 300px;
+    border-bottom: 1px solid #216c98;
+    /* text-align: center; */
+}
+
+/* #phone::-webkit-input-placeholder {
+    /* WebKit browsers */
+     /* color: transparent; */
+/* }  */
+
+.regForm input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.regForm label {
+    margin-top: 10px;
+    /* text-align: left; */
+    justify-content: left;
+}
+
+.regForm input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+#send_register {
+    height: 30px;
+    width: 100px;
+    background: #216c98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#passVisible{
+    background: none;
+    border: none;
+    left: -20px;
+    position: relative;
+}
+/* 
+#password{
+    right: -13px;
+    position:relative;
+} */
+
+#country {
+    width: 40px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #216c98;
+    border-right: 1px solid #216c98;
+
+}
+
+.country-flag {
+    width: 24px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.country-code {
+    font-weight: bold;
+}
+
+#notMatch{
+    color: rgb(241, 55, 55);
+    font-size: 8px;
+    /* top: 15px;
+    position: relative; */
+}
+
+#send_register:disabled{
+    cursor: not-allowed;
+    opacity: 0.25;
+}
